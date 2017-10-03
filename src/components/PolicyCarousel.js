@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
+import policies from '../data/policies';
 
 class PolicyCarousel extends Component {
+  _policyCardArray = obj => {
+    Object.keys(obj).map(key => {
+      const policy = obj[key];
+      console.log(policy.title);
+      return '';
+    });
+  };
+
   render() {
     let settings = {
       dots: true,
@@ -11,23 +20,11 @@ class PolicyCarousel extends Component {
       speed: 700
     };
 
+    this._policyCardArray(policies.EC);
+
     return (
       <Slider {...settings}>
-        <div>
-          <img src="http://placekitten.com/g/200/400" />
-        </div>
-        <div>
-          <img src="http://placekitten.com/g/200/400" />
-        </div>
-        <div>
-          <img src="http://placekitten.com/g/200/400" />
-        </div>
-        <div>
-          <img src="http://placekitten.com/g/200/400" />
-        </div>
-        <div>
-          <img src="http://placekitten.com/g/200/400" />
-        </div>
+        <div>{/* <PolicyCard /> */}</div>
       </Slider>
     );
   }
