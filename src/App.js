@@ -1,13 +1,23 @@
 import React, { Component } from 'react';
-
+import Home from './components/home';
 class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      currentTopic: null,
+      currentPolicy: null,
+      currentSnippet: null,
+      snippetVotes: {}
+    };
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to Policy Picker</h1>
-        </header>
-      </div>
+      <main className="App">
+        <h1>Policy Picker</h1>
+        <Home />
+      </main>
     );
   }
 }
