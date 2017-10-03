@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 import policies from '../data/policies';
+import PolicyCard from './PolicyCard';
 
 class PolicyCarousel extends Component {
   _policyCardArray = obj => {
-    Object.keys(obj).map(key => {
+    return Object.keys(obj).map(key => {
       const policy = obj[key];
-      console.log(policy.title);
-      return '';
+      return (
+        <PolicyCard
+          title={policy.title}
+          desc={policy.desc}
+          imgsrc={policy.imgsrc}
+        />
+      );
     });
   };
 
@@ -20,13 +26,7 @@ class PolicyCarousel extends Component {
       speed: 700
     };
 
-    this._policyCardArray(policies.EC);
-
-    return (
-      <Slider {...settings}>
-        <div>{/* <PolicyCard /> */}</div>
-      </Slider>
-    );
+    return <Slider {...settings}>{this._policyCardArray(policies.EC)}</Slider>;
   }
 }
 

@@ -2,7 +2,7 @@ const policies = {
   EC: {
     '1': {
       title: 'Universal Basic Income',
-      description: 'Here is a description on Universal Basic Income',
+      desc: 'Here is a description on Universal Basic Income',
       imgsrc: '/assets/img.svg',
       snippets: {
         '1': {
@@ -20,7 +20,7 @@ const policies = {
     },
     '2': {
       title: 'Eat The Rich',
-      description: 'Here is a description on Eat The Rich',
+      desc: 'Here is a description on Eat The Rich',
       imgsrc: '/assets/img.svg',
       snippets: {
         '1': {
@@ -38,7 +38,7 @@ const policies = {
     },
     '3': {
       title: 'Equal rights for Amelies everywhere',
-      description: 'Here is a description on Amelie',
+      desc: 'Here is a description on Amelie',
       imgsrc: '/assets/img.svg',
       snippets: {
         '1': {
