@@ -8,11 +8,13 @@ class PolicyCarousel extends Component {
     return Object.keys(obj).map(key => {
       const policy = obj[key];
       return (
-        <PolicyCard
-          title={policy.title}
-          desc={policy.desc}
-          imgsrc={policy.imgsrc}
-        />
+        <div>
+          <PolicyCard
+            title={policy.title}
+            desc={policy.desc}
+            imgsrc={policy.imgsrc}
+          />
+        </div>
       );
     });
   };
