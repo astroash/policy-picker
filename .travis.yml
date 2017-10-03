@@ -1,7 +1,6 @@
-sudo: true
 language: node_js
 node_js:
-- '5.7'
-cache:
-  directories:
-    - node_modules
+  - "7"
+script:
+  - npm run build
+  - bash ./.travis-deploy.sh
