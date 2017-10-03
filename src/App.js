@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
+import './css/App.css';
+import PolicyCarousel from './components/PolicyCarousel';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Welcome to Policy Picker</h1>
         </header>
+        <PolicyCarousel />
       </div>
     );
   }
