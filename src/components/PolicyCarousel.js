@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
-import policies from '../data/policies';
+import policies from '../data/policies.json';
 import PolicyCard from './PolicyCard';
 
 const PolicyCarousel = props => {
@@ -15,13 +15,11 @@ const PolicyCarousel = props => {
     return Object.keys(obj).map(key => {
       const policy = obj[key];
       return (
-        <div>
-          <PolicyCard
-            title={policy.title}
-            desc={policy.desc}
-            imgsrc={policy.imgsrc}
-          />
-        </div>
+        <PolicyCard
+          title={policy.title}
+          desc={policy.desc}
+          imgsrc={policy.imgsrc}
+        />
       );
     });
   };
