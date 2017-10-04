@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './css/App.css';
 import PolicyCarousel from './components/PolicyCarousel';
-import Home from './components/home';
+import Home from './components/Home';
 class App extends Component {
   constructor() {
     super();

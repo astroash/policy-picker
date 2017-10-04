@@ -1,5 +1,6 @@
 import React from 'react';
-import '../home.css';
+import '../css/Home.css';
+
 const Icon = props => (
   <div className="dib">
     <button className={`bn br-100 h3 w3 icon ${props.css}`} />
