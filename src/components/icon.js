@@ -1,10 +1,10 @@
 import React from 'react';
 import '../css/Home.css';
 
-const Icon = props => (
+const Icon = ({ topic, css }) => (
   <div className="dib">
-    <button className={`bn br-100 h3 w3 icon ${props.css}`} />
-    <h2 className="f5">{props.topic}</h2>
+    <button className={`bn br-100 h3 w3 icon ${css}`} />
+    <h2 className="f5">{topic}</h2>
   </div>
 );
 

@@ -13,4 +13,5 @@ const Home = props => {
     </section>
   );
 };
+
 export default Home;
