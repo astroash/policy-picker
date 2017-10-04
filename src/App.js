@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Route, Switch} from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import './css/App.css';
 import PolicyCarousel from './components/PolicyCarousel';
 import Home from './components/Home';
@@ -19,12 +19,12 @@ class App extends Component {
   render() {
     return (
       <Switch>
-        <Route exact path='/' render={() => <Home />} />
-        <Route exact path='/ownership' render={() => <PolicyCarousel />} />
-        <Route exact path='/tax' render={() => <PolicyCarousel />} />
-        <Route exact path='/technology' render={() => <PolicyCarousel />} />
-        <Route exact path='/welfare' render={() => <PolicyCarousel />} />
-        <Route exact path='/workplace' render={() => <PolicyCarousel />} />
+        <Route exact path="/" render={() => <Home />} />
+        <Route exact path="/ownership" render={() => <PolicyCarousel />} />
+        <Route exact path="/tax" render={() => <PolicyCarousel />} />
+        <Route exact path="/technology" render={() => <PolicyCarousel />} />
+        <Route exact path="/welfare" render={() => <PolicyCarousel />} />
+        <Route exact path="/workplace" render={() => <PolicyCarousel />} />
         {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
       </Switch>
     );

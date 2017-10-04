@@ -2,28 +2,29 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 60%;
+  cursor: pointer;
 }
-.edu {
+.tax {
   background-image: url('../assets/edu.svg');
   background-color: #fdb813;
 }
-.hea {
+.own {
   background-image: url('../assets/hea.svg');
   background-color: #00b6d2;
 }
-.ask {
+.tech {
   background-image: url('../assets/ask.svg');
   background-color: #e6681c;
 }
-.econ {
+.wel {
   background-image: url('../assets/econ.svg');
   background-color: #f68b1f;
 }
-.hou {
+.work {
   background-image: url('../assets/hou.svg');
   background-color: #00b6d2;
 }
-.env {
+.ask {
   background-image: url('../assets/env.svg');
   background-color: #ffe30d;
 }

@@ -1,15 +1,28 @@
 import React from 'react';
 import Icon from './Icon';
+import { Link } from 'react-router-dom';
 
 const Home = props => {
   return (
     <section id="home">
-      <Icon topic="Education" css="edu" />
-      <Icon topic="Environment" css="env" />
-      <Icon topic="Housing" css="hou" />
-      <Icon topic="Economy" css="econ" />
-      <Icon topic="Health" css="hea" />
-      <Icon topic="Ask Ed" css="ask" />
+      <Link to="/tax">
+        <Icon topic="Tax" css="tax" />
+      </Link>
+      <Link to="/ownership">
+        <Icon topic="Ownership" css="own" />
+      </Link>
+      <Link to="/technology">
+        <Icon topic="Technology" css="tech" />
+      </Link>
+      <Link to="/welfare">
+        <Icon topic="Welfare" css="wel" />
+      </Link>
+      <Link to="/workplace">
+        <Icon topic="Workplace" css="work" />
+      </Link>
+      <Link to="/askanon">
+        <Icon topic="Ask Ed" css="ask" />
+      </Link>
     </section>
   );
 };
