@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './css/App.css';
+import PolicyCarousel from './components/PolicyCarousel';
 import Home from './components/home';
 class App extends Component {
   constructor() {
