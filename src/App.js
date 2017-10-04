@@ -14,7 +14,7 @@ class App extends Component {
 
   render() {
     return (
-      <main className="App">
+      <main className="App mw6 tc center">
         <h1>Policy Picker</h1>
         <Home />
       </main>
