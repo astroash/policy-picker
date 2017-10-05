@@ -34,13 +34,7 @@ class App extends Component {
           <Route
             exact
             path="/"
-            render={() => (
-              <Home
-                changeTopic={this.changeTopic}
-                toggleMenu={this.toggleMenu}
-                menuDisplayed={this.state.menuDisplayed}
-              />
-            )}
+            render={() => <Home changeTopic={this.changeTopic} />}
           />
           <Route
             exact
