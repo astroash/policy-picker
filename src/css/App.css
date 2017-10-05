@@ -17,6 +17,7 @@ body {
 }
 .menu {
   z-index: 1;
+  margin-top: 0;
 }
 
 .menu li {
