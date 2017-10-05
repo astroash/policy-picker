@@ -20,10 +20,10 @@ class App extends Component {
 
   toggleMenu = () => {
     this.setState({ menuDisplayed: !this.state.menuDisplayed });
-  };
+  }
   changeTopic = topic => {
     this.setState({ currentTopic: topic });
-  };
+  }
 
   render() {
     return (
@@ -31,22 +31,13 @@ class App extends Component {
         <NavBar css="nav white relative h3" toggleMenu={this.toggleMenu} />
         <Menu id="menu" css={this.state.menuDisplayed ? 'fixed' : 'dn'} />
         <Switch>
-          <Route
-            exact
-            path="/"
-            render={() => <Home changeTopic={this.changeTopic} />}
-          />
-          <Route
-            exact
-            path="/ownership"
-            render={() => (
+          <Route exact path="/"
+            render={() => <Home changeTopic={this.changeTopic} />} />
+          <Route exact path="/ownership" render={() => (
               <PolicyCarousel
                 changeTopic={this.changeTopic}
                 toggleMenu={this.toggleMenu}
-                menuDisplayed={this.state.menuDisplayed}
-              />
-            )}
-          />
+                menuDisplayed={this.state.menuDisplayed} />)} />
           <Route exact path="/tax" render={() => <PolicyCarousel />} />
           <Route exact path="/technology" render={() => <PolicyCarousel />} />
           <Route exact path="/welfare" render={() => <PolicyCarousel />} />
