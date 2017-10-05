@@ -10,7 +10,7 @@ class App extends Component {
     super();
 
     this.state = {
-      currentTopic: null,
+      currentTopic: 'Home',
       currentPolicy: null,
       currentSnippet: null,
       menuDisplayed: false,
@@ -29,12 +29,12 @@ class App extends Component {
     return (
       <div className="mw6 center">
         <NavBar css="nav white relative h3" toggleMenu={this.toggleMenu} />
-        <Menu id="menu" css={this.state.menuDisplayed ? 'fixed' : 'dn'} />
+        <Menu id="menu" css={this.state.menuDisplayed ? 'fixed' : 'dn'}
+          changeTopic={this.changeTopic} toggleMenu={this.toggleMenu}/>
         <Switch>
           <Route exact path="/"
             render={() => <Home changeTopic={this.changeTopic} />} />
-          <Route exact path="/ownership" render={() => (
-              <PolicyCarousel
+          <Route exact path="/ownership" render={() => ( <PolicyCarousel
                 changeTopic={this.changeTopic}
                 toggleMenu={this.toggleMenu}
                 menuDisplayed={this.state.menuDisplayed} />)} />
