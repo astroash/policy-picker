@@ -23,7 +23,11 @@ const PolicyCarousel = props => {
       );
     });
   };
-  return <Slider {...settings}>{policyCardArray(policies.EC)}</Slider>;
+  return (
+    <section>
+      <Slider {...settings}>{policyCardArray(policies.EC)}</Slider>
+    </section>
+  );
 };
 
 export default PolicyCarousel;

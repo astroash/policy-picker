@@ -2,9 +2,11 @@ import React from 'react';
 import Icon from './Icon';
 import { Link } from 'react-router-dom';
 
+import '../css/Home.css';
+
 const Home = props => {
   return (
-    <section id="home">
+    <section id="home" className="center w-50">
       <Link to="/tax">
         <Icon topic="Tax" css="tax" />
       </Link>
