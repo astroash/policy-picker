@@ -23,7 +23,7 @@ const Home = ({changeTopic}) => {
         <Icon topic="Workplace" css="work" changeTopic={changeTopic}/>
       </Link>
       <Link to="/askanon">
-        <Icon topic="Ask Ed" css="ask" changeTopic={changeTopic}/>
+        <Icon topic="Ask Anon" css="ask" changeTopic={changeTopic}/>
       </Link>
     </section>
   );
