@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import '../css/SnippetView.css';
 
-import Swing, { Stack, Card, Direction } from 'react-swing';
+import Swing, { Stack, Card } from 'react-swing';
 
 class SnippetView extends Component {
   constructor(props) {
@@ -22,14 +22,19 @@ class SnippetView extends Component {
   };
 
   render() {
+    const config = {
+      minThrowOutDistance: 200,
+      maxThrowOutDistance: 5000,
+      allowedDirections: [Swing.DIRECTION.DOWN, Swing.DIRECTION.UP]
+    };
     return (
       <div id="viewport">
         <Swing
+          config={config}
           className="stack"
           tagName="div"
           setStack={stack => this.setState({ stack: stack })}
-          ref="stack"
-          throwout={e => console.log('throwout', e)}>
+          ref="stack">
           <div
             className="card clubs"
             ref="card1"
