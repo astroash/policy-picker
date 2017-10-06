@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import './css/App.css';
 import PolicyCarousel from './components/PolicyCarousel';
 import Home from './components/Home';
@@ -27,10 +27,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="mw6 center">
+      <main className="mw6 center">
         <NavBar css="nav white relative h3" toggleMenu={this.toggleMenu} />
         <Menu id="menu" css={this.state.menuDisplayed ? 'fixed' : 'dn'}
           changeTopic={this.changeTopic} toggleMenu={this.toggleMenu}/>
+      <Router>
         <Switch>
           <Route exact path="/"
             render={() => <Home changeTopic={this.changeTopic} />} />
@@ -41,7 +42,8 @@ class App extends Component {
           <Route exact path="/workplace" render={() => <PolicyCarousel />} />
           {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
         </Switch>
-      </div>
+      </Router>
+     </main>
     );
   }
 }
