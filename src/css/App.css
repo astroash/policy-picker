@@ -1,14 +1,26 @@
-.App {
-  text-align: center;
+body {
+  font-family: sans-serif;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.burger {
+  height: 3rem;
+  width: 3rem;
+  border: none;
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  background: url('../assets/burger.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: none;
+  cursor: pointer;
+}
+.menu {
+  z-index: 1;
+  margin-top: 0;
 }
 
-.App-title {
-  font-size: 1.5em;
+.menu li {
+  line-height: 2;
+  cursor: pointer;
 }

@@ -1,34 +1,29 @@
-.nav {
-  background-color: #00b6d2;
-}
-
 .icon {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 60%;
   cursor: pointer;
 }
-.tax {
+.tax-no-bg {
   background-image: url('../assets/edu.svg');
-  background-color: #fdb813;
+  background-color: white;
 }
-.own {
+.own-no-bg {
   background-image: url('../assets/hea.svg');
-  background-color: #00b6d2;
+  background-color: white;
 }
-.tech {
+.tech-no-bg {
   background-image: url('../assets/ask.svg');
-  background-color: #e6681c;
+  background-color: white;
 }
-.wel {
+.wel-no-bg {
   background-image: url('../assets/econ.svg');
-  background-color: #f68b1f;
+  background-color: white;
 }
-.work {
+.work-no-bg {
   background-image: url('../assets/hou.svg');
-  background-color: #00b6d2;
+  background-color: white;
 }
-.ask {
+.ask-no-bg {
   background-image: url('../assets/env.svg');
-  background-color: #ffe30d;
+  background-color: white;
 }
