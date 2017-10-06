@@ -1,24 +1,31 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Form = () => {
   return (
-    <form class="flex flex-column tc items-center pa5 mw6">
-      <label for="election" class="b f3">Did you vote in the 2017 Election?</label>
-      <div>
-        <button class="bg-pink di br2 pa3 ma2 white bn w-25 shadow-hover" value="Send">Yes</button>
-        <button class="bg-pink di br2 pa3 ma2 white bn w-25 shadow-hover" value="Send">No</button>
-        <button class="bg-pink di br2 pa3 ma2 white bn w-25 shadow-hover" value="Send">¯\_(ツ)_/¯</button>
+    <form className="flex flex-column tc items-center pa2 mt3 mw6">
+      <label for="age" className="b f3 mb2 mt3">How old are you?</label>
+      <input className="mb3 pa1 ba w-20" type="number"></input>
+      <label for="election" className="b f3 mt3">Did you vote in the 2017 Election?</label>
+      <div className="w-100">
+        <button className="grow bg-pink di br2 pa3 ma2 white bn w-25 pointer">Yes</button>
+        <button className="grow bg-pink di br2 pa3 ma2 white bn w-25 pointer">No</button>
+        <button className="grow bg-pink di br2 pa3 ma2 white bn w-25 pointer">¯\_(ツ)_/¯</button>
       </div>
-      <label for="referendum" class="b f3">Did you vote in the EU referendum?</label>
-      <div>
-        <button class="bg-pink di br2 pa3 ma2 white bn w-35 shadow-hover" value="Send">Yes - Remain</button>
-        <button class="bg-pink di br2 pa3 ma2 white bn w-35 shadow-hover" value="Send">Yes - Leave</button>
-        <button class="bg-pink di br2 pa3 ma2 white bn w-35 shadow-hover" value="Send">No</button>
-        <button class="bg-pink di br2 pa3 ma2 white bn w-35 shadow-hover" value="Send">¯\_(ツ)_/¯</button>
+      <label for="age" className="b f3 mb2 mt3">Who did you vote for?</label>
+      <input className="mb3 pa1 ba" type="text"></input>
+      <label for="referendum" className="b f3 mt3">Did you vote in the EU referendum?</label>
+      <div className="w-100">
+        <button className="grow bg-pink di br2 pa3 ma2 white bn w-25 pointer">Remain</button>
+        <button className="grow bg-pink di br2 pa3 ma2 white bn w-25 pointer">Leave</button>
       </div>
-      <label for="age" class="b f3 mb2">How old are you?</label>
-      <input class="mb3 pa1 ba w-20" type="number"></input>
-      <input type="button" class="bg-pink br2 pa3 ma2 white bn w-20" value="Send"/>
+      <div className="w-100">
+        <button className="grow bg-pink di br2 pa3 ma2 white bn w-25 pointer">No</button>
+        <button className="grow bg-pink di br2 pa3 ma2 white bn w-25 pointer">¯\_(ツ)_/¯</button>
+      </div>
+      <Link to="/summary">
+        <input type="button" className="grow bg-pink br2 pa3 ma2 mt4 white bn  pointer" value="Continue to Summary"/>
+      </Link>
     </form>
   );
 };

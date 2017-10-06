@@ -42,6 +42,7 @@ class App extends Component {
             <Route exact path="/welfare" render={() => <PolicyCarousel />} />
             <Route exact path="/workplace" render={() => <PolicyCarousel />} />
             <Route exact path="/form" render={() => <Form />} />
+            <Route exact path="/summary" />
             {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
           </Switch>
        </main>
