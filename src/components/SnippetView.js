@@ -23,31 +23,29 @@ class SnippetView extends Component {
 
   render() {
     return (
-      <div>
-        <div id="viewport">
-          <Swing
-            className="stack"
-            tagName="div"
-            setStack={stack => this.setState({ stack: stack })}
-            ref="stack"
-            throwout={e => console.log('throwout', e)}>
-            <div
-              className="card clubs"
-              ref="card1"
-              throwout={e => console.log('card throwout', e)}>
-              ♣
-            </div>
-            <div className="card diamonds" ref="card2">
-              ♦
-            </div>
-            <div className="card hearts" ref="card3">
-              ♥
-            </div>
-            <div className="card spades" ref="card4">
-              ♠
-            </div>
-          </Swing>
-        </div>
+      <div id="viewport">
+        <Swing
+          className="stack"
+          tagName="div"
+          setStack={stack => this.setState({ stack: stack })}
+          ref="stack"
+          throwout={e => console.log('throwout', e)}>
+          <div
+            className="card clubs"
+            ref="card1"
+            throwout={e => console.log('card throwout', e)}>
+            ♣
+          </div>
+          <div className="card diamonds" ref="card2">
+            ♦
+          </div>
+          <div className="card hearts" ref="card3">
+            ♥
+          </div>
+          <div className="card spades" ref="card4">
+            ♠
+          </div>
+        </Swing>
       </div>
     );
   }

@@ -1,29 +1,17 @@
-input {
-  width: 50px;
-}
-
 #viewport {
-  width: 500px;
-  height: 500px;
-  background: #c7433e;
-  border: 10px solid #ed5d52;
-  margin: 100px auto 0;
-  position: relative;
+  margin: auto;
 }
 
 #viewport .stack {
-  width: 200px;
+  width: 400px;
   height: 300px;
   background: #ed5d52;
-  position: absolute;
-  top: 100px;
-  left: 50%;
-  margin-left: -100px;
-  border-radius: 10px;
+  position: relative;
+  margin: auto;
 }
 
 #viewport .card {
-  width: 200px;
+  width: 400px;
   height: 300px;
   list-style: none;
   background: #fff;
