@@ -27,23 +27,23 @@ class App extends Component {
 
   render() {
     return (
-      <main className="mw6 center">
-        <NavBar css="nav white relative h3" toggleMenu={this.toggleMenu} />
-        <Menu id="menu" css={this.state.menuDisplayed ? 'fixed' : 'dn'}
-          changeTopic={this.changeTopic} toggleMenu={this.toggleMenu}/>
       <Router>
-        <Switch>
-          <Route exact path="/"
-            render={() => <Home changeTopic={this.changeTopic} />} />
-          <Route exact path="/ownership" render={() => ( <PolicyCarousel />)} />
-          <Route exact path="/tax" render={() => <PolicyCarousel />} />
-          <Route exact path="/technology" render={() => <PolicyCarousel />} />
-          <Route exact path="/welfare" render={() => <PolicyCarousel />} />
-          <Route exact path="/workplace" render={() => <PolicyCarousel />} />
-          {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
-        </Switch>
-      </Router>
-     </main>
+        <main className="mw6 center">
+          <NavBar css="nav white relative h3" toggleMenu={this.toggleMenu} />
+          <Menu id="menu" css={this.state.menuDisplayed ? 'fixed' : 'dn'}
+            changeTopic={this.changeTopic} toggleMenu={this.toggleMenu}/>
+          <Switch>
+            <Route exact path="/"
+              render={() => <Home changeTopic={this.changeTopic} />} />
+            <Route exact path="/ownership" render={() => ( <PolicyCarousel />)} />
+            <Route exact path="/tax" render={() => <PolicyCarousel />} />
+            <Route exact path="/technology" render={() => <PolicyCarousel />} />
+            <Route exact path="/welfare" render={() => <PolicyCarousel />} />
+            <Route exact path="/workplace" render={() => <PolicyCarousel />} />
+            {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
+          </Switch>
+       </main>
+     </Router>
     );
   }
 }
