@@ -24,10 +24,3 @@ body {
   line-height: 2;
   cursor: pointer;
 }
-
-.card {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  border: 1px black solid;
-}

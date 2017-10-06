@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import './css/App.css';
 import PolicyCarousel from './components/PolicyCarousel';
-import PolicySnippet from './components/PolicySnippet';
+import SnippetView from './components/SnippetView';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Menu from './components/Menu';
@@ -51,7 +51,7 @@ class App extends Component {
               )}
             />
             <Route exact path="/tax" render={() => <PolicyCarousel />} />
-            <Route exact path="/snippet" render={() => <PolicySnippet />} />
+            <Route exact path="/snippet" render={() => <SnippetView />} />
             <Route exact path="/technology" render={() => <PolicyCarousel />} />
             <Route exact path="/welfare" render={() => <PolicyCarousel />} />
             <Route exact path="/workplace" render={() => <PolicyCarousel />} />
