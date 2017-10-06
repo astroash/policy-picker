@@ -34,10 +34,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/"
             render={() => <Home changeTopic={this.changeTopic} />} />
-          <Route exact path="/ownership" render={() => ( <PolicyCarousel
-                changeTopic={this.changeTopic}
-                toggleMenu={this.toggleMenu}
-                menuDisplayed={this.state.menuDisplayed} />)} />
+          <Route exact path="/ownership" render={() => ( <PolicyCarousel />)} />
           <Route exact path="/tax" render={() => <PolicyCarousel />} />
           <Route exact path="/technology" render={() => <PolicyCarousel />} />
           <Route exact path="/welfare" render={() => <PolicyCarousel />} />
