@@ -1,13 +1,7 @@
-.Modal {
-  position: absolute;
-  top: 40px;
-  left: 100px;
-  right: 100px;
-  bottom: 40px;
-  background-color: hotpink;
+.modal {
 }
 
-.Overlay {
+.overlay {
   position: fixed;
   top: 0;
   left: 0;

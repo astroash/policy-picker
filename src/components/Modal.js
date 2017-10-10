@@ -27,8 +27,8 @@ class Modal extends React.Component {
           isOpen={this.state.showModal}
           contentLabel="onRequestClose Example"
           onRequestClose={this.handleCloseModal}
-          className="Modal"
-          overlayClassName="Overlay">
+          className="modal mw6 center mt5"
+          overlayClassName="overlay">
           <button onClick={this.handleCloseModal}>Close Modal</button>
           <ModalCarousel />
         </ReactModal>
