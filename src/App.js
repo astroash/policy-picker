@@ -6,7 +6,6 @@ import SnippetView from './components/SnippetView';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Menu from './components/Menu';
-import Modal from './components/Modal';
 import Form from './components/Form';
 
 class App extends Component {
@@ -39,7 +38,7 @@ class App extends Component {
       <Router>
         <div className="mw6 center app">
           <NavBar css="nav white relative h3" toggleMenu={this.toggleMenu} />
-          <Menu id="menu" css={this.state.menuDisplayed ? 'fixed' : 'dn'} />
+          <Menu id="menu" cssImg={this.state.menuDisplayed ? 'fixed' : 'dn'} />
           <Switch>
             <Route
               exact

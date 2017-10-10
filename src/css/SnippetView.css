@@ -1,3 +1,22 @@
+/*Icon styling*/
+.megaphone {
+  background-image: url('../assets/edu.svg');
+  background-color: #fdb813;
+}
+
+.bin {
+  background-image: url('../assets/edu.svg');
+  background-color: #e6681c;
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 6rem;
+  width: 6rem;
+}
+
+/*Stack styles*/
 #viewport {
   margin: auto;
 }
@@ -6,8 +25,7 @@
   width: 30rem;
   height: 400px;
   position: relative;
-  margin: auto;
-  margin-top: 25%;
+  margin: 10% auto;
 }
 
 #viewport .card {
