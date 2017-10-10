@@ -28,10 +28,6 @@
   cursor: default;
 }
 
-#viewport .card h1 {
-  font-size: 1rem;
-}
-
 #viewport .clubs,
 #viewport .spades {
   color: #373737;
@@ -55,13 +51,14 @@
 .snippet {
   width: 250px;
   height: 200px;
-  /*position: relative;*/
 }
 
 .snippet h2 {
   font-size: 1rem;
+  line-height: 1;
 }
 
 .snippet p {
   font-size: 1rem;
+  line-height: 1;
 }
