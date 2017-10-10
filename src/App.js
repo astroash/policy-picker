@@ -6,7 +6,9 @@ import SnippetView from './components/SnippetView';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Menu from './components/Menu';
+import Modal from './components/Modal';
 import Form from './components/Form';
+
 class App extends Component {
   constructor() {
     super();
