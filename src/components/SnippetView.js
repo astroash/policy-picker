@@ -10,7 +10,8 @@ class SnippetView extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      stack: null
+      stack: null,
+      // updateSnippetVote: this.props.updateSnippetVote
     };
   }
 
@@ -19,7 +20,7 @@ class SnippetView extends Component {
       const snippet = snippets[key];
       return (
         <div key={key}>
-          <Snippet title={snippet.title} desc={snippet.desc} />
+          <Snippet title={snippet.title} desc={snippet.desc} id={snippet.id} />
         </div>
       );
     });
@@ -42,7 +43,8 @@ class SnippetView extends Component {
           throwout = { (e)=> {
             console.log ('throwout',e);
             e.target.remove();
-
+            console.log(e.target.id)
+            this.props.updateSnippetVote({ eep: 'it worked' })
           }}
           // destroyCard = { (e)=> {console.log ('destroy:',e); }}
         >
