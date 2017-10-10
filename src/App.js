@@ -57,7 +57,6 @@ class App extends Component {
             <Route exact path="/technology" render={() => <PolicyCarousel />} />
             <Route exact path="/welfare" render={() => <PolicyCarousel />} />
             <Route exact path="/workplace" render={() => <PolicyCarousel />} />
-            <Route exact path="/modal" render={() => <Modal />} />
             {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
           </Switch>
         </div>

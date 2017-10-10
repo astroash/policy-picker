@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Snippet from './Snippet';
 import policies from '../data/policies.json';
-
+import Modal from './Modal';
 import '../css/SnippetView.css';
 
 import Swing from 'react-swing';
@@ -33,6 +33,7 @@ class SnippetView extends Component {
     };
     return (
       <div id="viewport">
+        <Modal />
         <Swing
           config={config}
           className="stack"
