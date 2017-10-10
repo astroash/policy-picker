@@ -11,7 +11,6 @@ class SnippetView extends Component {
     super(props);
     this.state = {
       stack: null,
-      // updateSnippetVote: this.props.updateSnippetVote
     };
   }
 
@@ -41,12 +40,12 @@ class SnippetView extends Component {
           setStack={stack => this.setState({ stack: stack })}
           ref="stack"
           throwout = { (e)=> {
-            console.log ('throwout',e);
+            console.log(e);
             e.target.remove();
-            console.log(e.target.id)
-            this.props.updateSnippetVote({ eep: 'it worked' })
+            let voteObj = {};
+            voteObj[e.target.firstChild.id] = e.throwDirection;
+            this.props.updateSnippetVote(voteObj)
           }}
-          // destroyCard = { (e)=> {console.log ('destroy:',e); }}
         >
         {this.arrayOfSnippetComponents(policies.EC[1].snippets)}
         </Swing>
