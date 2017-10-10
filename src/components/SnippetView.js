@@ -18,7 +18,7 @@ class SnippetView extends Component {
   }
 
   arrayOfSnippetComponents = snippets => {
-    return Object.keys(snippets).map(key => {
+    return Object.keys(snippets).reverse().map(key => {
       const snippet = snippets[key];
       return (
         <div key={key}>
