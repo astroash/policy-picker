@@ -10,7 +10,8 @@ const ModalCarousel = props => {
     centerMode: true,
     accessibility: true,
     swipeToSlide: true,
-    speed: 700
+    speed: 700,
+    fade: true
   };
   const modalCardArray = (obj, img) => {
     return Object.keys(obj).map(key => {
