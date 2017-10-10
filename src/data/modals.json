@@ -3,16 +3,16 @@
     "topinfo":
       "Each policy is broken down into snippets for you to find out more.",
     "bottominfo": "To get more info about any snippet click the info button.",
-    "imgsrc": "/assets/img.svg"
+    "key": "modal1"
   },
   "2": {
-    "topinfo": "After engaggin with a snippet you can either ...",
+    "topinfo": "After engaging with a snippet you can either ...",
     "bottominfo": "Take the snippet up to the megaphone to show your support.",
-    "imgsrc": "/assets/img.svg"
+    "key": "modal2"
   },
   "3": {
     "topinfo": "Or you can...",
     "bottominfo": "Take the snippet down to the bin to recycle it.",
-    "imgsrc": "/assets/img.svg"
+    "key": "modal3"
   }
 }

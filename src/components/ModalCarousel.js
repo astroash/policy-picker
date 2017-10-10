@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import modals from '../data/modals.json';
+import images from '../helpers/get-img';
 import ModalCard from './ModalCard';
 
 const ModalCarousel = props => {
@@ -11,21 +12,21 @@ const ModalCarousel = props => {
     swipeToSlide: true,
     speed: 700
   };
-  const modalCardArray = obj => {
+  const modalCardArray = (obj, img) => {
     return Object.keys(obj).map(key => {
       const modal = obj[key];
       return (
         <ModalCard
           topinfo={modal.topinfo}
           bottominfo={modal.bottominfo}
-          imgsrc={modal.imgsrc}
+          imgsrc={img.key}
         />
       );
     });
   };
   return (
     <section>
-      <Slider {...settings}>{modalCardArray(modals)}</Slider>
+      <Slider {...settings}>{modalCardArray(modals, images)}</Slider>
     </section>
   );
 };
