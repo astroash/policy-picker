@@ -6,9 +6,7 @@ import SnippetView from './components/SnippetView';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Menu from './components/Menu';
-import Modal from './components/Modal';
 import Form from './components/Form';
-import Infograph from './components/Infograph';
 
 class App extends Component {
   constructor() {
@@ -70,7 +68,6 @@ class App extends Component {
             <Route exact path="/welfare" render={() => <PolicyCarousel />} />
             <Route exact path="/workplace" render={() => <PolicyCarousel />} />
             <Route exact path="/form" render={() => <Form />} />
-            <Route exact path="/infograph" render={() => <Infograph />} />
             <Route exact path="/summary" />
             {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
           </Switch>
