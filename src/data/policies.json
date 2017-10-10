@@ -6,6 +6,7 @@
       "imgsrc": "/assets/img.svg",
       "snippets": {
         "1": {
+          "id": "EC1.1",
           "title": "Stuff",
           "desc": "blah",
           "infograph": [
@@ -29,6 +30,7 @@
           "links": ["link", "link", "link"]
         },
         "2": {
+          "id": "EC1.2",
           "title": "Pwekjlhfd",
           "desc": "blah",
           "infograph": [
@@ -52,6 +54,7 @@
           "links": ["link", "link", "link"]
         },
         "3": {
+          "id": "EC1.3",
           "title": "d;lfsm",
           "desc": "blah",
           "infograph": [
@@ -75,6 +78,7 @@
           "links": ["link", "link", "link"]
         },
         "4": {
+          "id": "EC1.4",
           "title": "df;klkn;anio",
           "desc": "whaaa",
           "infograph": [
@@ -99,6 +103,7 @@
         }
       },
       "5": {
+        "id": "EC1.5",
         "title": "blah",
         "desc": "blah",
         "infograph": [

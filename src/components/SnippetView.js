@@ -10,7 +10,7 @@ class SnippetView extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      stack: null
+      stack: null,
     };
   }
 
@@ -19,7 +19,7 @@ class SnippetView extends Component {
       const snippet = snippets[key];
       return (
         <div key={key}>
-          <Snippet title={snippet.title} desc={snippet.desc} />
+          <Snippet title={snippet.title} desc={snippet.desc} id={snippet.id} />
         </div>
       );
     });
@@ -39,8 +39,16 @@ class SnippetView extends Component {
           className="stack"
           tagName="div"
           setStack={stack => this.setState({ stack: stack })}
-          ref="stack">
-          {this.arrayOfSnippetComponents(policies.EC[1].snippets)}
+          ref="stack"
+          throwout = { (e)=> {
+            console.log(e);
+            e.target.remove();
+            let voteObj = {};
+            voteObj[e.target.firstChild.id] = e.throwDirection;
+            this.props.updateSnippetVote(voteObj)
+          }}
+        >
+        {this.arrayOfSnippetComponents(policies.EC[1].snippets)}
         </Swing>
       </div>
     );
