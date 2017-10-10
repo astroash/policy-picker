@@ -1,0 +1,26 @@
+.policyImg {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50%;
+  width: 50%;
+}
+
+.EC1 {
+  background: url('../assets/EC1.1.png');
+}
+
+.EC2 {
+  background: url('../assets/EC1.2.jpg');
+}
+
+.EC3 {
+  background: url('../assets/EC1.3.jpg');
+}
+
+.EC4 {
+  background: url('../assets/EC1.4.jpg');
+}
+
+.EC5 {
+  background: url('../assets/EC1.5.jpeg');
+}

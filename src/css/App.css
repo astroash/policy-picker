@@ -2,6 +2,12 @@ body {
   font-family: sans-serif;
 }
 
+.app {
+  background-color: #f3f1f1;
+  background-repeat: repeat-y;
+  height: 100vh;
+}
+
 .burger {
   height: 3rem;
   width: 3rem;
