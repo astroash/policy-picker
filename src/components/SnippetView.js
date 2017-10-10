@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Snippet from './Snippet';
 import policies from '../data/policies.json';
 import Modal from './Modal';
+import IconSnippet from './IconSnippet';
 import '../css/SnippetView.css';
 
 import Swing from 'react-swing';
@@ -11,6 +12,8 @@ class SnippetView extends Component {
     super(props);
     this.state = {
       stack: null,
+      megaphone: null,
+      bin: null,
     };
   }
 
@@ -27,13 +30,14 @@ class SnippetView extends Component {
 
   render() {
     const config = {
-      minThrowOutDistance: 300,
+      minThrowOutDistance: 1000,
       maxThrowOutDistance: 10000,
       allowedDirections: [Swing.DIRECTION.DOWN, Swing.DIRECTION.UP]
     };
     return (
       <div id="viewport">
         <Modal />
+        <IconSnippet cssImg="megaphone" />
         <Swing
           config={config}
           className="stack"
@@ -46,10 +50,11 @@ class SnippetView extends Component {
             let voteObj = {};
             voteObj[e.target.firstChild.id] = e.throwDirection;
             this.props.updateSnippetVote(voteObj)
-          }}
-        >
+
+          }}>
         {this.arrayOfSnippetComponents(policies.EC[1].snippets)}
         </Swing>
+        <IconSnippet cssImg="bin" />
       </div>
     );
   }
