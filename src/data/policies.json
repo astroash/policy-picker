@@ -6,7 +6,8 @@
       "imgsrc": "/assets/img.svg",
       "snippets": {
         "1": {
-          "title": "blah",
+          "id": "EC1.1",
+          "title": "Stuff",
           "desc": "blah",
           "infograph": [
             {
@@ -27,7 +28,103 @@
             }
           ],
           "links": ["link", "link", "link"]
+        },
+        "2": {
+          "id": "EC1.2",
+          "title": "Pwekjlhfd",
+          "desc": "blah",
+          "infograph": [
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            }
+          ],
+          "links": ["link", "link", "link"]
+        },
+        "3": {
+          "id": "EC1.3",
+          "title": "d;lfsm",
+          "desc": "blah",
+          "infograph": [
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            }
+          ],
+          "links": ["link", "link", "link"]
+        },
+        "4": {
+          "id": "EC1.4",
+          "title": "df;klkn;anio",
+          "desc": "whaaa",
+          "infograph": [
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            }
+          ],
+          "links": ["link", "link", "link"]
         }
+      },
+      "5": {
+        "id": "EC1.5",
+        "title": "blah",
+        "desc": "blah",
+        "infograph": [
+          {
+            "imgsrc": "blah",
+            "desc": "blahblah"
+          },
+          {
+            "imgsrc": "blah",
+            "desc": "blahblah"
+          },
+          {
+            "imgsrc": "blah",
+            "desc": "blahblah"
+          },
+          {
+            "imgsrc": "blah",
+            "desc": "blahblah"
+          }
+        ],
+        "links": ["link", "link", "link"]
       }
     },
     "2": {
@@ -57,7 +154,99 @@
             }
           ],
           "links": ["link", "link", "link"]
+        },
+        "2": {
+          "title": "blah",
+          "desc": "blah",
+          "infograph": [
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            }
+          ],
+          "links": ["link", "link", "link"]
+        },
+        "3": {
+          "title": "blah",
+          "desc": "blah",
+          "infograph": [
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            }
+          ],
+          "links": ["link", "link", "link"]
+        },
+        "4": {
+          "title": "blah",
+          "desc": "blah",
+          "infograph": [
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            }
+          ],
+          "links": ["link", "link", "link"]
         }
+      },
+      "5": {
+        "title": "blah",
+        "desc": "blah",
+        "infograph": [
+          {
+            "imgsrc": "blah",
+            "desc": "blahblah"
+          },
+          {
+            "imgsrc": "blah",
+            "desc": "blahblah"
+          },
+          {
+            "imgsrc": "blah",
+            "desc": "blahblah"
+          },
+          {
+            "imgsrc": "blah",
+            "desc": "blahblah"
+          }
+        ],
+        "links": ["link", "link", "link"]
       }
     },
     "3": {
@@ -87,7 +276,99 @@
             }
           ],
           "links": ["link", "link", "link"]
+        },
+        "2": {
+          "title": "blah",
+          "desc": "blah",
+          "infograph": [
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            }
+          ],
+          "links": ["link", "link", "link"]
+        },
+        "3": {
+          "title": "blah",
+          "desc": "blah",
+          "infograph": [
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            }
+          ],
+          "links": ["link", "link", "link"]
+        },
+        "4": {
+          "title": "blah",
+          "desc": "blah",
+          "infograph": [
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            },
+            {
+              "imgsrc": "blah",
+              "desc": "blahblah"
+            }
+          ],
+          "links": ["link", "link", "link"]
         }
+      },
+      "5": {
+        "title": "blah",
+        "desc": "blah",
+        "infograph": [
+          {
+            "imgsrc": "blah",
+            "desc": "blahblah"
+          },
+          {
+            "imgsrc": "blah",
+            "desc": "blahblah"
+          },
+          {
+            "imgsrc": "blah",
+            "desc": "blahblah"
+          },
+          {
+            "imgsrc": "blah",
+            "desc": "blahblah"
+          }
+        ],
+        "links": ["link", "link", "link"]
       }
     }
   }

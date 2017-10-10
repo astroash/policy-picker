@@ -1,0 +1,67 @@
+#viewport {
+  margin: auto;
+}
+
+#viewport .stack {
+  width: 250px;
+  height: 200px;
+  position: relative;
+  margin: auto;
+  margin-top: 40%;
+}
+
+#viewport .card {
+  width: 250px;
+  height: 200px;
+  list-style: none;
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 1px 1px 1px rgba(0, 0, 0, 0.2);
+  line-height: 300px;
+  text-align: center;
+  font-size: 3rem;
+  border: 10px solid #ececec;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+#viewport .card h1 {
+  font-size: 1rem;
+}
+
+#viewport .clubs,
+#viewport .spades {
+  color: #373737;
+}
+
+#viewport .diamonds,
+#viewport .hearts {
+  color: #ed5d52;
+}
+
+#viewport .in-deck:nth-child(3) {
+  top: 2px;
+  transform: translate(2px, 2px) rotate(0.4deg);
+}
+
+#viewport .in-deck:nth-child(2) {
+  top: 4px;
+  transform: translate(-4px, -2px) rotate(-1deg);
+}
+
+.snippet {
+  width: 250px;
+  height: 200px;
+  /*position: relative;*/
+}
+
+.snippet h2 {
+  font-size: 1rem;
+}
+
+.snippet p {
+  font-size: 1rem;
+}
