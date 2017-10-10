@@ -27,7 +27,7 @@ class Modal extends React.Component {
           isOpen={this.state.showModal}
           contentLabel="onRequestClose Example"
           onRequestClose={this.handleCloseModal}
-          className="w5 w2-m tc center mt5"
+          className="w-90 w-30-l w-60-m tc center mt5"
           overlayClassName="overlay">
           <button className="center" onClick={this.handleCloseModal}>
             X
