@@ -22,32 +22,30 @@
 }
 
 #viewport .stack {
-  width: 250px;
-  height: 200px;
+  width: 30rem;
+  height: 400px;
   position: relative;
   margin: 10% auto;
 }
 
 #viewport .card {
-  width: 250px;
-  height: 200px;
+  width: 30rem;
+  height: 400px;
   list-style: none;
   background: #fff;
   border-radius: 5px;
   position: absolute;
   top: 0;
   left: 0;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 1px 1px 1px rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 1px 1px 1px rgba(0, 0, 0, 0.2);*/
   line-height: 300px;
   text-align: center;
   font-size: 3rem;
-  border: 10px solid #ececec;
+  /*border: 10px solid #ececec;*/
+  background: url('../assets/snippet.svg');
+  background-size: 100% 100%;
   box-sizing: border-box;
   cursor: default;
-}
-
-#viewport .card h1 {
-  font-size: 1rem;
 }
 
 #viewport .clubs,
@@ -72,14 +70,18 @@
 
 .snippet {
   width: 250px;
-  height: 200px;
-  /*position: relative;*/
+  height: 300px;
+  padding: 6rem;
 }
 
 .snippet h2 {
-  font-size: 1rem;
+  font-size: 2rem;
+  line-height: 1;
+  margin-top: 0rem;
+  margin-bottom: 0;
 }
 
 .snippet p {
   font-size: 1rem;
+  line-height: 1.6;
 }

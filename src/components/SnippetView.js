@@ -44,15 +44,14 @@ class SnippetView extends Component {
           tagName="div"
           setStack={stack => this.setState({ stack: stack })}
           ref="stack"
-          throwout = { (e)=> {
+          throwout={e => {
             console.log(e);
             e.target.remove();
             let voteObj = {};
             voteObj[e.target.firstChild.id] = e.throwDirection;
-            this.props.updateSnippetVote(voteObj)
-
+            this.props.updateSnippetVote(voteObj);
           }}>
-        {this.arrayOfSnippetComponents(policies.EC[1].snippets)}
+          {this.arrayOfSnippetComponents(policies.EC[1].snippets)}
         </Swing>
         <IconSnippet cssImg="bin" />
       </div>
