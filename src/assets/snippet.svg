@@ -1,0 +1,21 @@
+<svg width="510" height="530" viewBox="0 0 510 530" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>paper snippet</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(2 0 0 2 10600 -13070)">
+<g id="paper snippet" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(-5300 6537)" fill="#FFFFFF"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-5300" y="6535" width="255" height="265" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="5" dy="3"/>
+<feGaussianBlur stdDeviation="2.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.652838 0 0 0 0 0.652838 0 0 0 0 0.652838 0 0 0 0.45 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 0 237.509L 0 34.9819L 24.2918 50.6318L 36.0907 17.491L 56.9122 50.6318L 56.9122 0L 94.3909 34.9819L 109.66 17.491L 129.788 50.6318L 150.609 17.491L 181.147 34.9819L 197.805 17.491L 208.909 50.6318L 245 34.9819L 245 222.78L 208.909 255L 181.147 222.78L 169.348 255L 139.504 222.78L 129.788 255L 109.66 222.78L 77.0397 255L 56.9122 222.78L 47.1955 255L 24.2918 222.78L 0 237.509Z"/>
+</defs>
+</svg>
