@@ -15,11 +15,12 @@ const ModalCarousel = props => {
   const modalCardArray = (obj, img) => {
     return Object.keys(obj).map(key => {
       const modal = obj[key];
+      const imgsrc = modal.id;
       return (
         <ModalCard
           topinfo={modal.topinfo}
           bottominfo={modal.bottominfo}
-          imgsrc={img.key}
+          imgsrc={img[imgsrc]}
         />
       );
     });
