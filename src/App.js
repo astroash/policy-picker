@@ -6,6 +6,8 @@ import SnippetView from './components/SnippetView';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Menu from './components/Menu';
+import Modal from './components/Modal';
+
 class App extends Component {
   constructor() {
     super();
@@ -55,6 +57,7 @@ class App extends Component {
             <Route exact path="/technology" render={() => <PolicyCarousel />} />
             <Route exact path="/welfare" render={() => <PolicyCarousel />} />
             <Route exact path="/workplace" render={() => <PolicyCarousel />} />
+            <Route exact path="/modal" render={() => <Modal />} />
             {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
           </Switch>
         </div>
