@@ -38,8 +38,15 @@ class SnippetView extends Component {
           className="stack"
           tagName="div"
           setStack={stack => this.setState({ stack: stack })}
-          ref="stack">
-          {this.arrayOfSnippetComponents(policies.EC[1].snippets)}
+          ref="stack"
+          throwout = { (e)=> {
+            console.log ('throwout',e);
+            e.target.remove();
+
+          }}
+          // destroyCard = { (e)=> {console.log ('destroy:',e); }}
+        >
+        {this.arrayOfSnippetComponents(policies.EC[1].snippets)}
         </Swing>
       </div>
     );
