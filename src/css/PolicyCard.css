@@ -7,6 +7,14 @@
   width: 100%;
 }
 
+.policy-card {
+  height: calc(600px - 18vh);
+}
+
+.card-title {
+  font-size: calc(0.9rem + 2vw);
+}
+
 .ECimg1 {
   background-image: url('../assets/policy-pics/ECimg1.png');
 }
