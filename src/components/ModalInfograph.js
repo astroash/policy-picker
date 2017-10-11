@@ -27,7 +27,7 @@ class ModalInfograph extends React.Component {
           isOpen={this.state.showModal}
           contentLabel="onRequestClose Example"
           onRequestClose={this.handleCloseModal}
-          className="w-90 h-90 w-30-l w-60-m tc center mt5 bg-white"
+          className="w-90 h-90 w-30-l w-60-m tc center mt5 ph2 bg-white"
           overlayClassName="overlay">
           <button className="center" onClick={this.handleCloseModal}>
             X
