@@ -1,5 +1,8 @@
 .nav {
   background-color: #00b6d2;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .icon {
@@ -7,28 +10,43 @@
   background-position: center;
   background-size: 60%;
   cursor: pointer;
+  vertical-align: middle;
 }
 .tax {
-  background-image: url('../assets/edu.svg');
+  background-image: url('../assets/icons/black/tax.svg');
   background-color: #fdb813;
 }
 .own {
-  background-image: url('../assets/hea.svg');
+  background-image: url('../assets/icons/black/ownership.svg');
   background-color: #00b6d2;
 }
 .tech {
-  background-image: url('../assets/ask.svg');
+  background-image: url('../assets/icons/black/tech.svg');
   background-color: #e6681c;
 }
 .wel {
-  background-image: url('../assets/econ.svg');
+  background-image: url('../assets/icons/black/welfare.svg');
   background-color: #f68b1f;
 }
 .work {
-  background-image: url('../assets/hou.svg');
+  background-image: url('../assets/icons/black/workplace.svg');
   background-color: #00b6d2;
 }
 .ask {
-  background-image: url('../assets/env.svg');
+  background-image: url('../assets/icons/black/ask.svg');
   background-color: #ffe30d;
+}
+
+.icon-bg {
+  width: calc(60px + 8vw);
+  height: calc(60px + 8vw);
+}
+
+.row {
+  margin: 1vw;
+}
+
+.icon-container {
+  margin-left: calc(25px - 1vw);
+  margin-right: calc(25px - 1vw);
 }

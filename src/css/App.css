@@ -1,11 +1,11 @@
 body {
-  font-family: sans-serif;
+  font-family: Ubuntu, sans-serif;
 }
 
 .app {
   background-color: #f3f1f1;
   background-repeat: repeat-y;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .burger {
@@ -23,10 +23,15 @@ body {
 }
 .menu {
   z-index: 1;
-  margin-top: 0;
+  margin-top: 4rem;
+  box-shadow: 0px 5px 8px 0px rgba(136, 136, 136, 0.18);
 }
 
 .menu li {
-  line-height: 2;
+  line-height: 1;
   cursor: pointer;
+}
+
+.main {
+  padding: 5.5rem 1rem 0.5rem;
 }
