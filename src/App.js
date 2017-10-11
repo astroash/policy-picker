@@ -8,6 +8,7 @@ import NavBar from './components/NavBar';
 import Menu from './components/Menu';
 import Form from './components/Form';
 import AskAnMP from './components/AskAnMP';
+import Loading from './components/Loading';
 
 class App extends Component {
   constructor() {
@@ -49,6 +50,7 @@ class App extends Component {
           <Menu id="menu" cssImg={this.state.menuDisplayed ? 'fixed' : 'dn'} />
           <main className="main">
             <Switch>
+              <Route exact path="/loading" render={() => <Loading />} />
               <Route exact path="/" render={() => <Home changeTopic={this.changeTopic} />} />
               <Route exact path="/ownership" render={() => ( <PolicyCarousel changePolicy={this.changePolicy} /> )} />
               <Route exact path="/tax" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
