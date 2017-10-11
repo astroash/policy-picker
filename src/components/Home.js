@@ -27,8 +27,8 @@ const Home = ({ changeTopic }) => {
         <Link to="/workplace">
           <Icon topic="Workplace" cssImg="work" changeTopic={changeTopic} />
         </Link>
-        <Link to="/askanon">
-          <Icon topic="Ask Anon" cssImg="ask" changeTopic={changeTopic} />
+        <Link to="/askanmp">
+          <Icon topic="Ask an MP" cssImg="ask" changeTopic={changeTopic} />
         </Link>
       </div>
     </section>
