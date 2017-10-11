@@ -7,6 +7,7 @@ import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Menu from './components/Menu';
 import Form from './components/Form';
+import Ask from './components/Ask';
 
 class App extends Component {
   constructor() {
@@ -69,6 +70,7 @@ class App extends Component {
             <Route exact path="/workplace" render={() => <PolicyCarousel />} />
             <Route exact path="/form" render={() => <Form />} />
             <Route exact path="/summary" />
+            <Route exact path="/ask" render={() => <Ask />} />
             {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
           </Switch>
         </div>
