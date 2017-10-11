@@ -2,8 +2,8 @@
   "EC": {
     "1": {
       "title": "Universal Basic Income",
-      "desc": "Here is a description on Universal Basic Income",
-      "imgsrc": "/assets/img.svg",
+      "desc": "An income for everyone, whether in need of it or not, reducing the costs of administering welfare, and protecting everyone as automation leads to less work in society.",
+      "imgsrc": "/assets/ubi.svg",
       "snippets": {
         "1": {
           "id": "EC11",
@@ -133,13 +133,15 @@
       }
     },
     "2": {
-      "title": "Eat The Rich",
-      "desc": "Here is a description on Eat The Rich",
-      "imgsrc": "/assets/img.svg",
+      "title": "National Infrastructure Investment Bank",
+      "desc": "To stimulate the economy and minimise costs of government borrowing",
+      "imgsrc": "/assets/niib.svg",
       "snippets": {
         "1": {
-          "title": "blah",
-          "desc": "blah",
+          "id": "EC21",
+          "title": "1",
+          "desc":
+            "Current policy is to ask the private sector to finance infrastructure, and to make a profit from it over the lifetime of the project.",
           "infograph": [
             {
               "imgsrc": "blah",
@@ -161,8 +163,10 @@
           "links": ["link", "link", "link"]
         },
         "2": {
-          "title": "blah",
-          "desc": "blah",
+          "id": "EC22",
+          "title": "2",
+          "desc":
+            "Government borrowing costs are lower, so the government could lend money to the private sector and take a margin on the difference in interest rates.",
           "infograph": [
             {
               "imgsrc": "blah",
@@ -184,8 +188,10 @@
           "links": ["link", "link", "link"]
         },
         "3": {
-          "title": "blah",
-          "desc": "blah",
+          "id": "EC23",
+          "title": "3",
+          "desc":
+            "The state could also manage projects itself to save money on future subsidies to the private sector. If the projects are profit-making, the government could keep the profit and use it to lower taxes, pay off the national debt or finance a better country.",
           "infograph": [
             {
               "imgsrc": "blah",
@@ -207,8 +213,10 @@
           "links": ["link", "link", "link"]
         },
         "4": {
-          "title": "blah",
-          "desc": "blah",
+          "id": "EC24",
+          "title": "4",
+          "desc":
+            "This would work well for the 99% of people who pay taxes and use public infrastructure, but people who are net recipients of infrastructure spending, especially those living on islands and with their own private infrastructure would be worse off.",
           "infograph": [
             {
               "imgsrc": "blah",
@@ -231,8 +239,10 @@
         }
       },
       "5": {
-        "title": "blah",
-        "desc": "blah",
+        "id": "EC25",
+        "title": "5",
+        "desc":
+          "The government would provide violinists with tiny violins for these people.",
         "infograph": [
           {
             "imgsrc": "blah",
@@ -255,13 +265,15 @@
       }
     },
     "3": {
-      "title": "Equal rights for Amelies everywhere",
-      "desc": "Here is a description on Amelie",
-      "imgsrc": "/assets/img.svg",
+      "title": "Broadband and buses everywhere",
+      "desc": "To make it easier for people to work, and stimulate employment",
+      "imgsrc": "/assets/bnb.svg",
       "snippets": {
         "1": {
-          "title": "blah",
-          "desc": "blah",
+          "id": "EC31",
+          "title": "1",
+          "desc":
+            "Many people live in the middle of nowhere, but most work is in real places. This means that people have to take irregular, expensive public transport, or commute in cars in 'rush' hour.",
           "infograph": [
             {
               "imgsrc": "blah",
@@ -283,8 +295,10 @@
           "links": ["link", "link", "link"]
         },
         "2": {
-          "title": "blah",
-          "desc": "blah",
+          "id": "EC32",
+          "title": "2",
+          "desc":
+            "Current policy is to subsidise private companies to provide a minimal bus service in rural areas, and to allow a private monopoly to decide, based on projected profit, when to upgrade an area's broadband, which is never.",
           "infograph": [
             {
               "imgsrc": "blah",
@@ -306,8 +320,10 @@
           "links": ["link", "link", "link"]
         },
         "3": {
-          "title": "blah",
-          "desc": "blah",
+          "id": "EC33",
+          "title": "3",
+          "desc":
+            "So nobody in a rural area uses the buses unless it is impossible to use a car, and neither can they effectively work over the internet.",
           "infograph": [
             {
               "imgsrc": "blah",
@@ -329,8 +345,10 @@
           "links": ["link", "link", "link"]
         },
         "4": {
-          "title": "blah",
-          "desc": "blah",
+          "id": "EC34",
+          "title": "4",
+          "desc":
+            "Funding a proper bus service, area by area, would fuel a cultural shift towards relying on public transport instead of cars, reducing traffic and making buses more reliable and cheaper. Funding a fast broadband rollout and good public transport would reduce the pressure to live in the towns with good broadband and train connections.",
           "infograph": [
             {
               "imgsrc": "blah",
@@ -353,8 +371,10 @@
         }
       },
       "5": {
-        "title": "blah",
-        "desc": "blah",
+        "id": "EC35",
+        "title": "5",
+        "desc":
+          "Unfortunately, this could reduce housing demand, and may affect house prices in well connected towns. The policy also means that those people who would never take public transport because they are better than other people will subsidise, to some degree, public transport for people who just want to get to where they can go. But at least traffic will improve for those people",
         "infograph": [
           {
             "imgsrc": "blah",
