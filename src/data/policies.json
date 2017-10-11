@@ -8,8 +8,9 @@
       "imgid": "ECimg1",
       "snippets": {
         "1": {
-          "id": "EC1.1",
+          "id": "EC.1.1",
           "title": "1",
+          "mini-desc": "UBI Fact 1",
           "desc":
             "If it is economically sustainable UBI seems likely to underwrite a set of social and institutional changes which more profoundly reshape the power relations of capitalism than will a program of stakeholder grants.",
           "infograph": [
@@ -33,8 +34,9 @@
           "links": ["link", "link", "link"]
         },
         "2": {
-          "id": "EC1.2",
+          "id": "EC.1.2",
           "title": "2",
+          "mini-desc": "UBI Fact 2",
           "desc":
             "A generous, unconditional basic income which would allow employees a meaningful exit from a particular employment situation",
           "infograph": [
@@ -58,8 +60,9 @@
           "links": ["link", "link", "link"]
         },
         "3": {
-          "id": "EC1.3",
+          "id": "EC.1.3",
           "title": "3",
+          "mini-desc": "UBI Fact 3",
           "desc":
             "The defense of UBI offered here is not, however, primarily about social justice as such. It is about creating the conditions under which a stable move toward more equal power within class relations can be achieved.",
           "infograph": [
@@ -83,8 +86,9 @@
           "links": ["link", "link", "link"]
         },
         "4": {
-          "id": "EC1.4",
+          "id": "EC.1.4",
           "title": "4",
+          "mini-desc": "UBI Fact 4",
           "desc":
             "The ideal of “equality of opportunity,” as it is conceived in much liberal egalitarian discussion of justice, involves trying to distinguish between those conditions of life for which people can reasonably be held responsible and those for which they cannot.",
           "infograph": [
@@ -109,8 +113,9 @@
         }
       },
       "5": {
-        "id": "EC1.5",
+        "id": "EC.1.5",
         "title": "5",
+        "mini-desc": "UBI Fact 5",
         "desc":
           " Of course, this might mean that many such low-skill jobs would disappear, but since many low-skilled people will still want discretionary income above the no-frills UBI level, there will still be potential workers willing to take such jobs.",
         "infograph": [

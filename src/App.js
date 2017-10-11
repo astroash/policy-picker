@@ -19,8 +19,8 @@ class App extends Component {
       currentPolicy: 1,
       currentSnippet: null,
       menuDisplayed: false,
-      snippetUpvotes: [],
-      snippetDownvotes: []
+      snippetUpvotes: ["EC.1.1", "EC.1.3", "EC.1.4"],
+      snippetDownvotes: ["EC.1.2"]
     };
   }
 
