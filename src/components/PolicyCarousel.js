@@ -16,9 +16,11 @@ const PolicyCarousel = props => {
       const policy = obj[key];
       return (
         <PolicyCard
+          id={policy.id}
           title={policy.title}
           desc={policy.desc}
           imgsrc={policy.imgsrc}
+          changePolicy={props.changePolicy}
         />
       );
     });
