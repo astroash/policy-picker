@@ -8,6 +8,7 @@ import NavBar from './components/NavBar';
 import Menu from './components/Menu';
 import Form from './components/Form';
 import AskAnMP from './components/AskAnMP';
+import Summary from './components/Summary';
 
 class App extends Component {
   constructor() {
@@ -18,7 +19,8 @@ class App extends Component {
       currentPolicy: 1,
       currentSnippet: null,
       menuDisplayed: false,
-      snippetVotes: []
+      snippetUpvotes: [],
+      snippetDownvotes: []
     };
   }
 
@@ -34,8 +36,13 @@ class App extends Component {
     this.setState({ currentPolicy: policyId });
   };
 
-  updateSnippetVote = newVoteObj => {
-    this.setState({ snippetVotes: this.state.snippetVotes.concat(newVoteObj) });
+  updateSnippetVote = (id, vote) => {
+    console.log(id, vote);
+    if (vote === '+1'){
+      this.setState({ snippetUpvotes: this.state.snippetUpvotes.concat(id) });
+    } else {
+      this.setState({ snippetDownvotes: this.state.snippetDownvotes.concat(id) });
+    }
   };
 
   render() {
@@ -56,7 +63,7 @@ class App extends Component {
               <Route exact path="/welfare" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
               <Route exact path="/workplace" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
               <Route exact path="/form" render={() => <Form />} />
-              <Route exact path="/summary" />
+              <Route exact path="/summary" render={() => <Summary snippetUpvotes={this.state.snippetUpvotes} snippetDownvotes={this.state.snippetDownvotes}/>}/>
               <Route exact path="/ask" render={() => <AskAnMP />} />
               <Route exact path="/snippet" render={() => (
                   <SnippetView currentPolicy={this.state.currentPolicy} updateSnippetVote={this.updateSnippetVote} />

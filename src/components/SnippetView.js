@@ -53,9 +53,9 @@ class SnippetView extends Component {
           ref="stack"
           throwout={e => {
             e.target.remove();
-            let voteObj = {};
-            voteObj[e.target.firstChild.id] = voteTypeOf(e.throwDirection);
-            this.props.updateSnippetVote(voteObj);
+            // let voteObj = {};
+            // voteObj[e.target.firstChild.id] = voteTypeOf(e.throwDirection);
+            this.props.updateSnippetVote(e.target.firstChild.id, voteTypeOf(e.throwDirection));
           }}>
           {this.arrayOfSnippetComponents(policies.EC[this.props.currentPolicy].snippets)}
         </Swing>
