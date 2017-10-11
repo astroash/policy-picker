@@ -2,8 +2,8 @@
   "EC": {
     "1": {
       "title": "Universal Basic Income",
-      "desc": "Here is a description on Universal Basic Income",
-      "imgsrc": "/assets/img.svg",
+      "desc": "An income for everyone, whether in need of it or not, reducing the costs of administering welfare, and protecting everyone as automation leads to less work in society.",
+      "imgsrc": "/assets/ubi.svg",
       "snippets": {
         "1": {
           "id": "EC11",
@@ -267,7 +267,7 @@
     "3": {
       "title": "Broadband and buses everywhere",
       "desc": "To make it easier for people to work, and stimulate employment",
-      "imgsrc": "/assets/niib.svg",
+      "imgsrc": "/assets/bnb.svg",
       "snippets": {
         "1": {
           "id": "EC31",
