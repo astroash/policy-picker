@@ -9,7 +9,9 @@ const PolicyCarousel = props => {
     centerMode: true,
     accessibility: true,
     swipeToSlide: true,
-    speed: 700
+    speed: 700,
+    className: 'mh2 mb4'
+    // dotsClass: 'grey ',
   };
   const policyCardArray = obj => {
     return Object.keys(obj).map(key => {
@@ -18,7 +20,7 @@ const PolicyCarousel = props => {
         <PolicyCard
           title={policy.title}
           desc={policy.desc}
-          imgsrc={policy.imgsrc}
+          imgsrc={policy.imgid}
         />
       );
     });

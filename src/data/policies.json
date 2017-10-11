@@ -2,8 +2,9 @@
   "EC": {
     "1": {
       "title": "Universal Basic Income",
-      "desc": "An income for everyone, whether in need of it or not, reducing the costs of administering welfare, and protecting everyone as automation leads to less work in society.",
-      "imgsrc": "/assets/ubi.svg",
+      "desc":
+        "An income for everyone, whether in need of it or not, reducing the costs of administering welfare, and protecting everyone as automation leads to less work in society.",
+      "imgid": "ECimg1",
       "snippets": {
         "1": {
           "id": "EC11",
@@ -134,8 +135,9 @@
     },
     "2": {
       "title": "National Infrastructure Investment Bank",
-      "desc": "To stimulate the economy and minimise costs of government borrowing",
-      "imgsrc": "/assets/niib.svg",
+      "desc":
+        "To stimulate the economy and minimise costs of government borrowing",
+      "imgid": "ECimg2",
       "snippets": {
         "1": {
           "id": "EC21",
@@ -267,7 +269,7 @@
     "3": {
       "title": "Broadband and buses everywhere",
       "desc": "To make it easier for people to work, and stimulate employment",
-      "imgsrc": "/assets/bnb.svg",
+      "imgid": "ECimg3",
       "snippets": {
         "1": {
           "id": "EC31",

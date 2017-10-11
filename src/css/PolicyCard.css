@@ -1,0 +1,20 @@
+.policy-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-size: cover;
+  height: calc(5rem + 7vw);
+  width: 100%;
+}
+
+.ECimg1 {
+  background-image: url('../assets/policy-pics/ECimg1.png');
+}
+
+.ECimg2 {
+  background-image: url('../assets/policy-pics/ECimg2.jpg');
+}
+
+.ECimg3 {
+  background-image: url('../assets/policy-pics/ECimg3.jpg');
+}
