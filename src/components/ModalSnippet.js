@@ -3,7 +3,7 @@ import ReactModal from 'react-modal';
 import ModalCarousel from './ModalCarousel';
 import '../css/Modal.css';
 
-class Modal extends React.Component {
+class ModalSnippet extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -39,4 +39,4 @@ class Modal extends React.Component {
   }
 }
 
-export default Modal;
+export default ModalSnippet;

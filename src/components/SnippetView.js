@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Snippet from './Snippet';
 import policies from '../data/policies.json';
-import Modal from './Modal';
+import ModalSnippet from './ModalSnippet';
+import ModalInfograph from './ModalInfograph';
 import IconSnippet from './IconSnippet';
 import '../css/SnippetView.css';
 
@@ -13,19 +14,25 @@ class SnippetView extends Component {
     this.state = {
       stack: null,
       megaphone: null,
-      bin: null,
+      bin: null
     };
   }
 
   arrayOfSnippetComponents = snippets => {
-    return Object.keys(snippets).reverse().map(key => {
-      const snippet = snippets[key];
-      return (
-        <div key={key}>
-          <Snippet title={snippet.title} desc={snippet.desc} id={snippet.id} />
-        </div>
-      );
-    });
+    return Object.keys(snippets)
+      .reverse()
+      .map(key => {
+        const snippet = snippets[key];
+        return (
+          <div key={key}>
+            <Snippet
+              title={snippet.title}
+              desc={snippet.desc}
+              id={snippet.id}
+            />
+          </div>
+        );
+      });
   };
 
   render() {
@@ -36,7 +43,8 @@ class SnippetView extends Component {
     };
     return (
       <div id="viewport">
-        <Modal />
+        <ModalSnippet />
+        <ModalInfograph />
         <IconSnippet cssImg="megaphone" />
         <Swing
           config={config}
