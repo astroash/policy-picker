@@ -1,12 +1,13 @@
 {
   "EC": {
     "1": {
+      "id": "EC1",
       "title": "Universal Basic Income",
       "desc": "An income for everyone, whether in need of it or not, reducing the costs of administering welfare, and protecting everyone as automation leads to less work in society.",
       "imgsrc": "/assets/ubi.svg",
       "snippets": {
         "1": {
-          "id": "EC11",
+          "id": "EC1.1",
           "title": "1",
           "desc":
             "If it is economically sustainable UBI seems likely to underwrite a set of social and institutional changes which more profoundly reshape the power relations of capitalism than will a program of stakeholder grants.",
@@ -31,7 +32,7 @@
           "links": ["link", "link", "link"]
         },
         "2": {
-          "id": "EC12",
+          "id": "EC1.2",
           "title": "2",
           "desc":
             "A generous, unconditional basic income which would allow employees a meaningful exit from a particular employment situation",
@@ -56,7 +57,7 @@
           "links": ["link", "link", "link"]
         },
         "3": {
-          "id": "EC13",
+          "id": "EC1.3",
           "title": "3",
           "desc":
             "The defense of UBI offered here is not, however, primarily about social justice as such. It is about creating the conditions under which a stable move toward more equal power within class relations can be achieved.",
@@ -81,7 +82,7 @@
           "links": ["link", "link", "link"]
         },
         "4": {
-          "id": "EC14",
+          "id": "EC1.4",
           "title": "4",
           "desc":
             "The ideal of “equality of opportunity,” as it is conceived in much liberal egalitarian discussion of justice, involves trying to distinguish between those conditions of life for which people can reasonably be held responsible and those for which they cannot.",
@@ -107,7 +108,7 @@
         }
       },
       "5": {
-        "id": "EC15",
+        "id": "EC1.5",
         "title": "5",
         "desc":
           " Of course, this might mean that many such low-skill jobs would disappear, but since many low-skilled people will still want discretionary income above the no-frills UBI level, there will still be potential workers willing to take such jobs.",
@@ -133,12 +134,13 @@
       }
     },
     "2": {
+      "id": "EC2",
       "title": "National Infrastructure Investment Bank",
       "desc": "To stimulate the economy and minimise costs of government borrowing",
       "imgsrc": "/assets/niib.svg",
       "snippets": {
         "1": {
-          "id": "EC21",
+          "id": "EC2.1",
           "title": "1",
           "desc":
             "Current policy is to ask the private sector to finance infrastructure, and to make a profit from it over the lifetime of the project.",
@@ -163,7 +165,7 @@
           "links": ["link", "link", "link"]
         },
         "2": {
-          "id": "EC22",
+          "id": "EC2.2",
           "title": "2",
           "desc":
             "Government borrowing costs are lower, so the government could lend money to the private sector and take a margin on the difference in interest rates.",
@@ -188,7 +190,7 @@
           "links": ["link", "link", "link"]
         },
         "3": {
-          "id": "EC23",
+          "id": "EC2.3",
           "title": "3",
           "desc":
             "The state could also manage projects itself to save money on future subsidies to the private sector. If the projects are profit-making, the government could keep the profit and use it to lower taxes, pay off the national debt or finance a better country.",
@@ -213,7 +215,7 @@
           "links": ["link", "link", "link"]
         },
         "4": {
-          "id": "EC24",
+          "id": "EC2.4",
           "title": "4",
           "desc":
             "This would work well for the 99% of people who pay taxes and use public infrastructure, but people who are net recipients of infrastructure spending, especially those living on islands and with their own private infrastructure would be worse off.",
@@ -239,7 +241,7 @@
         }
       },
       "5": {
-        "id": "EC25",
+        "id": "EC2.5",
         "title": "5",
         "desc":
           "The government would provide violinists with tiny violins for these people.",
@@ -265,12 +267,13 @@
       }
     },
     "3": {
+      "id": "EC3",
       "title": "Broadband and buses everywhere",
       "desc": "To make it easier for people to work, and stimulate employment",
       "imgsrc": "/assets/bnb.svg",
       "snippets": {
         "1": {
-          "id": "EC31",
+          "id": "EC3.1",
           "title": "1",
           "desc":
             "Many people live in the middle of nowhere, but most work is in real places. This means that people have to take irregular, expensive public transport, or commute in cars in 'rush' hour.",
@@ -295,7 +298,7 @@
           "links": ["link", "link", "link"]
         },
         "2": {
-          "id": "EC32",
+          "id": "EC3.2",
           "title": "2",
           "desc":
             "Current policy is to subsidise private companies to provide a minimal bus service in rural areas, and to allow a private monopoly to decide, based on projected profit, when to upgrade an area's broadband, which is never.",
@@ -320,7 +323,7 @@
           "links": ["link", "link", "link"]
         },
         "3": {
-          "id": "EC33",
+          "id": "EC3.3",
           "title": "3",
           "desc":
             "So nobody in a rural area uses the buses unless it is impossible to use a car, and neither can they effectively work over the internet.",
@@ -345,7 +348,7 @@
           "links": ["link", "link", "link"]
         },
         "4": {
-          "id": "EC34",
+          "id": "EC3.4",
           "title": "4",
           "desc":
             "Funding a proper bus service, area by area, would fuel a cultural shift towards relying on public transport instead of cars, reducing traffic and making buses more reliable and cheaper. Funding a fast broadband rollout and good public transport would reduce the pressure to live in the towns with good broadband and train connections.",
@@ -371,7 +374,7 @@
         }
       },
       "5": {
-        "id": "EC35",
+        "id": "EC3.5",
         "title": "5",
         "desc":
           "Unfortunately, this could reduce housing demand, and may affect house prices in well connected towns. The policy also means that those people who would never take public transport because they are better than other people will subsidise, to some degree, public transport for people who just want to get to where they can go. But at least traffic will improve for those people",
