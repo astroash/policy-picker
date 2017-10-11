@@ -1,11 +1,11 @@
 /*Icon styling*/
 .megaphone {
-  background-image: url('../assets/edu.svg');
+  background-image: url('../assets/icons/black/upvote.svg');
   background-color: #fdb813;
 }
 
 .bin {
-  background-image: url('../assets/edu.svg');
+  background-image: url('../assets/icons/black/downvote.svg');
   background-color: #e6681c;
 }
 
