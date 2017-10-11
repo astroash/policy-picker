@@ -57,7 +57,7 @@ class SnippetView extends Component {
             voteObj[e.target.firstChild.id] = voteTypeOf(e.throwDirection);
             this.props.updateSnippetVote(voteObj);
           }}>
-          {this.arrayOfSnippetComponents(policies.EC[1].snippets)}
+          {this.arrayOfSnippetComponents(policies.EC[this.props.currentPolicy].snippets)}
         </Swing>
         <IconSnippet cssImg="bin" />
       </div>

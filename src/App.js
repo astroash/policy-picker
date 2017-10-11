@@ -15,7 +15,7 @@ class App extends Component {
 
     this.state = {
       currentTopic: null,
-      currentPolicy: null,
+      currentPolicy: 1,
       currentSnippet: null,
       menuDisplayed: false,
       snippetVotes: []
@@ -51,15 +51,15 @@ class App extends Component {
             <Switch>
               <Route exact path="/" render={() => <Home changeTopic={this.changeTopic} />} />
               <Route exact path="/ownership" render={() => ( <PolicyCarousel changePolicy={this.changePolicy} /> )} />
-              <Route exact path="/tax" render={() => <PolicyCarousel />} />
-              <Route exact path="/technology" render={() => <PolicyCarousel />} />
-              <Route exact path="/welfare" render={() => <PolicyCarousel />} />
-              <Route exact path="/workplace" render={() => <PolicyCarousel />} />
+              <Route exact path="/tax" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
+              <Route exact path="/technology" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
+              <Route exact path="/welfare" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
+              <Route exact path="/workplace" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
               <Route exact path="/form" render={() => <Form />} />
               <Route exact path="/summary" />
               <Route exact path="/ask" render={() => <AskAnMP />} />
               <Route exact path="/snippet" render={() => (
-                  <SnippetView updateSnippetVote={this.updateSnippetVote} />
+                  <SnippetView currentPolicy={this.state.currentPolicy} updateSnippetVote={this.updateSnippetVote} />
                 )} />
               {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
             </Switch>
