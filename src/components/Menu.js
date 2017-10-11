@@ -1,7 +1,6 @@
 import React from 'react';
-import IconNoBg from './IconNoBg';
 import { Link } from 'react-router-dom';
-
+import IconNoBg from './IconNoBg';
 const Menu = ({ cssImg, changeTopic, toggleMenu }) => {
   return (
     <ul
@@ -13,12 +12,8 @@ const Menu = ({ cssImg, changeTopic, toggleMenu }) => {
           toggleMenu();
           changeTopic('Home');
         }}>
-        <li className="hot-pink">
-          <IconNoBg
-            topic="Home"
-            cssImg="home-no-bg"
-            changeTopic={changeTopic}
-          />Home
+        <li className="hot-pink" changeTopic={changeTopic}>
+          <IconNoBg topic="Home" cssImg="home-no-bg" />Home
         </li>
       </Link>
       <Link
@@ -28,12 +23,8 @@ const Menu = ({ cssImg, changeTopic, toggleMenu }) => {
           toggleMenu();
           changeTopic('Tax');
         }}>
-        <li className="hot-pink">
-          <IconNoBg
-            topic="Tax"
-            cssImg="tax-no-bg"
-            changeTopic={changeTopic}
-          />Tax
+        <li className="hot-pink" changeTopic={changeTopic}>
+          <IconNoBg topic="Tax" cssImg="tax-no-bg" />Tax
         </li>
       </Link>
       <Link
@@ -43,12 +34,8 @@ const Menu = ({ cssImg, changeTopic, toggleMenu }) => {
           toggleMenu();
           changeTopic('Ownership');
         }}>
-        <li className="hot-pink">
-          <IconNoBg
-            topic="Ownership"
-            cssImg="own-no-bg"
-            changeTopic={changeTopic}
-          />Ownership
+        <li className="hot-pink" changeTopic={changeTopic}>
+          <IconNoBg topic="Ownership" cssImg="own-no-bg" />Ownership
         </li>
       </Link>
       <Link
@@ -58,12 +45,8 @@ const Menu = ({ cssImg, changeTopic, toggleMenu }) => {
           toggleMenu();
           changeTopic('Technology');
         }}>
-        <li className="hot-pink">
-          <IconNoBg
-            topic="Technology"
-            cssImg="tech-no-bg"
-            changeTopic={changeTopic}
-          />Technology
+        <li className="hot-pink" changeTopic={changeTopic}>
+          <IconNoBg topic="Technology" cssImg="tech-no-bg" />Technology
         </li>
       </Link>
       <Link
@@ -73,12 +56,8 @@ const Menu = ({ cssImg, changeTopic, toggleMenu }) => {
           toggleMenu();
           changeTopic('Welfare');
         }}>
-        <li className="hot-pink">
-          <IconNoBg
-            topic="Welfare"
-            cssImg="wel-no-bg"
-            changeTopic={changeTopic}
-          />Welfare
+        <li className="hot-pink" changeTopic={changeTopic}>
+          <IconNoBg topic="Welfare" cssImg="wel-no-bg" />Welfare
         </li>
       </Link>
       <Link
@@ -103,12 +82,8 @@ const Menu = ({ cssImg, changeTopic, toggleMenu }) => {
           toggleMenu();
           changeTopic('Askanon');
         }}>
-        <li className="hot-pink">
-          <IconNoBg
-            topic="Askanon"
-            cssImg="ask-no-bg"
-            changeTopic={changeTopic}
-          />Ask
+        <li className="hot-pink" changeTopic={changeTopic}>
+          <IconNoBg topic="Ask an MP" cssImg="ask-no-bg" />Ask
         </li>
       </Link>
     </ul>

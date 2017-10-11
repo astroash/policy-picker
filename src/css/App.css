@@ -9,5 +9,5 @@ body {
 }
 
 .main {
-  padding: 5.5rem 1rem 0.5rem;
+  padding: calc(4rem + 1.5vw) 1rem 0.5rem;
 }
