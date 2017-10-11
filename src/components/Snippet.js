@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/Images.css';
 
 const Snippet = ({ title, desc, id }) => {
   //NB cards display in reverse order they appear in policies.json

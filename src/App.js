@@ -36,9 +36,9 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="mw6 center">
+        <div className="mw6 center app">
           <NavBar css="nav white relative h3" toggleMenu={this.toggleMenu} />
-          <Menu id="menu" css={this.state.menuDisplayed ? 'fixed' : 'dn'} />
+          <Menu id="menu" cssImg={this.state.menuDisplayed ? 'fixed' : 'dn'} />
           <Switch>
             <Route
               exact

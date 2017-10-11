@@ -3,6 +3,7 @@ import Snippet from './Snippet';
 import policies from '../data/policies.json';
 import ModalSnippet from './ModalSnippet';
 import ModalInfograph from './ModalInfograph';
+import IconSnippet from './IconSnippet';
 import '../css/SnippetView.css';
 
 import Swing from 'react-swing';
@@ -11,24 +12,32 @@ class SnippetView extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      stack: null
+      stack: null,
+      megaphone: null,
+      bin: null
     };
   }
 
   arrayOfSnippetComponents = snippets => {
-    return Object.keys(snippets).map(key => {
-      const snippet = snippets[key];
-      return (
-        <div key={key}>
-          <Snippet title={snippet.title} desc={snippet.desc} id={snippet.id} />
-        </div>
-      );
-    });
+    return Object.keys(snippets)
+      .reverse()
+      .map(key => {
+        const snippet = snippets[key];
+        return (
+          <div key={key}>
+            <Snippet
+              title={snippet.title}
+              desc={snippet.desc}
+              id={snippet.id}
+            />
+          </div>
+        );
+      });
   };
 
   render() {
     const config = {
-      minThrowOutDistance: 300,
+      minThrowOutDistance: 1000,
       maxThrowOutDistance: 10000,
       allowedDirections: [Swing.DIRECTION.DOWN, Swing.DIRECTION.UP]
     };
@@ -36,6 +45,7 @@ class SnippetView extends Component {
       <div id="viewport">
         <ModalSnippet />
         <ModalInfograph />
+        <IconSnippet cssImg="megaphone" />
         <Swing
           config={config}
           className="stack"
@@ -51,6 +61,7 @@ class SnippetView extends Component {
           }}>
           {this.arrayOfSnippetComponents(policies.EC[1].snippets)}
         </Swing>
+        <IconSnippet cssImg="bin" />
       </div>
     );
   }
