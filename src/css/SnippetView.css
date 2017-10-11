@@ -9,9 +9,7 @@
   background-color: #e6681c;
 }
 
-.icon {
-  background-repeat: no-repeat;
-  background-position: center;
+.icon-snippet {
   height: 6rem;
   width: 6rem;
 }

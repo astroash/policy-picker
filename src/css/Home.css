@@ -1,7 +1,8 @@
 .nav {
   background-color: #00b6d2;
-  width: 100%;
   position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .icon {
@@ -9,7 +10,7 @@
   background-position: center;
   background-size: 60%;
   cursor: pointer;
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 .tax {
   background-image: url('../assets/icons/black/tax.svg');
@@ -40,11 +41,12 @@
   width: calc(60px + 8vw);
   height: calc(60px + 8vw);
 }
+
 .row {
   margin: 1vw;
 }
 
 .icon-container {
-  margin-left: 1.2vw;
-  margin-right: 1.2vw;
+  margin-left: calc(25px - 1vw);
+  margin-right: calc(25px - 1vw);
 }

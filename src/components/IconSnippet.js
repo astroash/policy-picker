@@ -3,7 +3,7 @@ import '../css/SnippetView.css';
 
 const IconSnippet = ({ topic, cssImg }) => (
   <div className="center tc ma2">
-    <button  className={`bn br-100 icon ${cssImg}`} id={cssImg}/>
+    <button className={`bn br-100 icon icon-snippet ${cssImg}`} id={cssImg} />
   </div>
 );
 

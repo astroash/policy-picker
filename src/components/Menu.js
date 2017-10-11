@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Menu = ({ cssImg, changeTopic, toggleMenu }) => {
   return (
     <ul
-      className={`menu sans-serif list w-100 bg-white tc f2 mw6 hot-pink ${cssImg}`}>
+      className={`menu sans-serif list w-100 bg-white tc f3 mw6 hot-pink ${cssImg}`}>
       <Link
         to="/"
         style={{ textDecoration: 'none' }}
