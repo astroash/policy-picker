@@ -8,13 +8,14 @@ import NavBar from './components/NavBar';
 import Menu from './components/Menu';
 import Form from './components/Form';
 import AskAnMP from './components/AskAnMP';
+import lowerCaseNoSpace from './helpers/lowercase-no-spacing';
 
 class App extends Component {
   constructor() {
     super();
 
     this.state = {
-      currentTopic: null,
+      currentTopic: 'Home',
       currentPolicy: 1,
       currentSnippet: null,
       menuDisplayed: false,
@@ -43,24 +44,81 @@ class App extends Component {
       <Router>
         <div className="mw6 center app">
           <NavBar
-            css="nav white relative h3 mw6"
+            css={`nav white relative h3 mw6`}
+            currentIcon={`current-${lowerCaseNoSpace(this.state.currentTopic)}`}
             toggleMenu={this.toggleMenu}
           />
           <Menu id="menu" cssImg={this.state.menuDisplayed ? 'fixed' : 'dn'} />
           <main className="main">
             <Switch>
-              <Route exact path="/" render={() => <Home changeTopic={this.changeTopic} />} />
-              <Route exact path="/ownership" render={() => ( <PolicyCarousel changePolicy={this.changePolicy} /> )} />
-              <Route exact path="/tax" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
-              <Route exact path="/technology" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
-              <Route exact path="/welfare" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
-              <Route exact path="/workplace" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
+              <Route
+                exact
+                path="/"
+                render={() => <Home changeTopic={this.changeTopic} />}
+              />
+              <Route
+                exact
+                path="/ownership"
+                render={() => (
+                  <PolicyCarousel
+                    currentTopic={this.state.currentTopic}
+                    changePolicy={this.changePolicy}
+                  />
+                )}
+              />
+              <Route
+                exact
+                path="/tax"
+                render={() => (
+                  <PolicyCarousel
+                    currentTopic={this.state.currentTopic}
+                    changePolicy={this.changePolicy}
+                  />
+                )}
+              />
+              <Route
+                exact
+                path="/technology"
+                render={() => (
+                  <PolicyCarousel
+                    currentTopic={this.state.currentTopic}
+                    changePolicy={this.changePolicy}
+                  />
+                )}
+              />
+              <Route
+                exact
+                path="/welfare"
+                render={() => (
+                  <PolicyCarousel
+                    currentTopic={this.state.currentTopic}
+                    changePolicy={this.changePolicy}
+                  />
+                )}
+              />
+              <Route
+                exact
+                path="/workplace"
+                render={() => (
+                  <PolicyCarousel
+                    currentTopic={this.state.currentTopic}
+                    changePolicy={this.changePolicy}
+                  />
+                )}
+              />
               <Route exact path="/form" render={() => <Form />} />
               <Route exact path="/summary" />
               <Route exact path="/ask" render={() => <AskAnMP />} />
-              <Route exact path="/snippet" render={() => (
-                  <SnippetView currentPolicy={this.state.currentPolicy} updateSnippetVote={this.updateSnippetVote} />
-                )} />
+              <Route
+                exact
+                path="/snippet"
+                render={() => (
+                  <SnippetView
+                    currentPolicy={this.state.currentPolicy}
+                    updateSnippetVote={this.updateSnippetVote}
+                  />
+                )}
+              />
               {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
             </Switch>
           </main>

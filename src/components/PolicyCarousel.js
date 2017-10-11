@@ -28,7 +28,7 @@ const PolicyCarousel = props => {
   };
   return (
     <section>
-      <h1>{}</h1>
+      <h1 className="f2 tc">{props.currentTopic}</h1>
       <Slider {...settings}>{policyCardArray(policies.EC)}</Slider>
     </section>
   );
