@@ -1,5 +1,7 @@
 .nav {
   background-color: #00b6d2;
+  width: 100%;
+  position: fixed;
 }
 
 .icon {
@@ -7,6 +9,7 @@
   background-position: center;
   background-size: 60%;
   cursor: pointer;
+  vertical-align: middle;
 }
 .tax {
   background-image: url('../assets/edu.svg');
@@ -31,4 +34,17 @@
 .ask {
   background-image: url('../assets/env.svg');
   background-color: #ffe30d;
+}
+
+.icon-bg {
+  width: calc(60px + 8vw);
+  height: calc(60px + 8vw);
+}
+.row {
+  margin: 1vw;
+}
+
+.icon-container {
+  margin-left: 1.2vw;
+  margin-right: 1.2vw;
 }

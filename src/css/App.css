@@ -5,7 +5,7 @@ body {
 .app {
   background-color: #f3f1f1;
   background-repeat: repeat-y;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .burger {
@@ -23,10 +23,14 @@ body {
 }
 .menu {
   z-index: 1;
-  margin-top: 0;
+  margin-top: 4rem;
 }
 
 .menu li {
   line-height: 2;
   cursor: pointer;
+}
+
+.main {
+  padding: 5.5rem 1rem 0.5rem;
 }

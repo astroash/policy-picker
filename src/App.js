@@ -37,40 +37,53 @@ class App extends Component {
     return (
       <Router>
         <div className="mw6 center app">
-          <NavBar css="nav white relative h3" toggleMenu={this.toggleMenu} />
+          <NavBar
+            css="nav white relative h3 mw6"
+            toggleMenu={this.toggleMenu}
+          />
           <Menu id="menu" cssImg={this.state.menuDisplayed ? 'fixed' : 'dn'} />
-          <Switch>
-            <Route
-              exact
-              path="/"
-              render={() => <Home changeTopic={this.changeTopic} />}
-            />
-            <Route
-              exact
-              path="/ownership"
-              render={() => (
-                <PolicyCarousel
-                  changeTopic={this.changeTopic}
-                  toggleMenu={this.toggleMenu}
-                  menuDisplayed={this.state.menuDisplayed}
-                />
-              )}
-            />
-            <Route exact path="/tax" render={() => <PolicyCarousel />} />
-            <Route
-              exact
-              path="/snippet"
-              render={() => (
-                <SnippetView updateSnippetVote={this.updateSnippetVote} />
-              )}
-            />
-            <Route exact path="/technology" render={() => <PolicyCarousel />} />
-            <Route exact path="/welfare" render={() => <PolicyCarousel />} />
-            <Route exact path="/workplace" render={() => <PolicyCarousel />} />
-            <Route exact path="/form" render={() => <Form />} />
-            <Route exact path="/summary" />
-            {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
-          </Switch>
+          <main className="main">
+            <Switch>
+              <Route
+                exact
+                path="/"
+                render={() => <Home changeTopic={this.changeTopic} />}
+              />
+              <Route
+                exact
+                path="/ownership"
+                render={() => (
+                  <PolicyCarousel
+                    changeTopic={this.changeTopic}
+                    toggleMenu={this.toggleMenu}
+                    menuDisplayed={this.state.menuDisplayed}
+                  />
+                )}
+              />
+              <Route exact path="/tax" render={() => <PolicyCarousel />} />
+              <Route
+                exact
+                path="/snippet"
+                render={() => (
+                  <SnippetView updateSnippetVote={this.updateSnippetVote} />
+                )}
+              />
+              <Route
+                exact
+                path="/technology"
+                render={() => <PolicyCarousel />}
+              />
+              <Route exact path="/welfare" render={() => <PolicyCarousel />} />
+              <Route
+                exact
+                path="/workplace"
+                render={() => <PolicyCarousel />}
+              />
+              <Route exact path="/form" render={() => <Form />} />
+              <Route exact path="/summary" />
+              {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
+            </Switch>
+          </main>
         </div>
       </Router>
     );
