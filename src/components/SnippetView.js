@@ -38,8 +38,6 @@ class SnippetView extends Component {
 
   render() {
     const config = {
-      minThrowOutDistance: 1000,
-      maxThrowOutDistance: 10000,
       allowedDirections: [Swing.DIRECTION.DOWN, Swing.DIRECTION.UP]
     };
     return (
@@ -58,9 +56,8 @@ class SnippetView extends Component {
             let voteObj = {};
             voteObj[e.target.firstChild.id] = voteTypeOf(e.throwDirection);
             this.props.updateSnippetVote(voteObj);
-            console.log(voteObj);
           }}>
-          {this.arrayOfSnippetComponents(policies.EC[1].snippets)}
+          {this.arrayOfSnippetComponents(policies.EC[this.props.currentPolicy].snippets)}
         </Swing>
         <IconSnippet cssImg="bin" />
       </div>

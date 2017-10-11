@@ -1,8 +1,10 @@
 import React from 'react';
 import '../css/PolicyCard.css';
+import {Link} from 'react-router-dom';
 
-const PolicyCard = ({ title, desc, imgsrc, ...props }) => {
+const PolicyCard = ({ id, title, desc, imgsrc, changePolicy, ...props }) => {
   return (
+    <Link to="/snippet" onClick= {()=> changePolicy(id)} >
     <div {...props}>
       <div className="mh3 policy-card shadow-1 ba b--none br3 bg-white tc pb3 pointer">
         <div className={`policy-img ${imgsrc} br3 br--top`} alt={title} />
@@ -13,6 +15,7 @@ const PolicyCard = ({ title, desc, imgsrc, ...props }) => {
         </p>
       </div>
     </div>
+  </Link>
   );
 };
 
