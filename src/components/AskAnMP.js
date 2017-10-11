@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import images from '../helpers/get-img';
 
-const Ask = () => {
+const AskAnMP = () => {
   return (
     <div className="mh3">
       <h1 className="tc">Ask an MP</h1>
@@ -17,28 +18,34 @@ const Ask = () => {
           </button>
         </form>
       </section>
-      <section className="questions">
-        <p className="ba bw1 b--gold br2 pa3">
+      <section className="questions dib">
+        <p className="ba bw1 b--gold br2 bg-white pa3 w-80 mr3 dib">
           How can young people get better information on policies?
         </p>
-        <p className="ba bw1 b--gold br2 pa3">
+        <img src={images.upvote} alt="upvote" className="card-img" />
+        <p className="ba bw1 b--gold br2 bg-white pa3 w-80 mr3 dib">
           How do I know if a particular policy will affect me or my family?
         </p>
-        <p className="ba bw1 b--gold br2 pa3">
+        <img src={images.upvote} alt="upvote" className="card-img" />
+        <p className="ba bw1 b--gold br2 bg-white pa3 w-80 mr3 dib">
           What's the best news source to get latest updates on policies?
         </p>
-        <p className="ba bw1 b--gold br2 pa3">
+        <img src={images.upvote} alt="upvote" className="card-img" />
+        <p className="ba bw1 b--gold br2 bg-white pa3 w-80 mr3 dib">
           How can young people get better information on policies?
         </p>
-        <p className="ba bw1 b--gold br2 pa3">
+        <img src={images.upvote} alt="upvote" className="card-img" />
+        <p className="ba bw1 b--gold br2 bg-white pa3 w-80 mr3 dib">
           How do I know if a particular policy will affect me or my family?
         </p>
-        <p className="ba bw1 b--gold br2 pa3">
+        <img src={images.upvote} alt="upvote" className="card-img" />
+        <p className="ba bw1 b--gold br2 bg-white pa3 w-80 mr3 dib">
           What's the best news source to get latest updates on policies?
         </p>
+        <img src={images.upvote} alt="upvote" className="card-img" />
       </section>
     </div>
   );
 };
 
-export default Ask;
+export default AskAnMP;
