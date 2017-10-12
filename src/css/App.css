@@ -11,3 +11,11 @@ body {
 .main {
   padding: calc(4rem + 1.5vw) 1rem 0.5rem;
 }
+
+/*summary*/
+.summary__ul {
+  font-size: calc(0.6rem + 0.7vw);
+}
+.summary--margin {
+  margin-top: 2vw;
+}
