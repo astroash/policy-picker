@@ -1,0 +1,1063 @@
+[33mcommit 4a4449a7a2b76aba2796599ac341579dc238a26a[m
+Merge: c17da5c 60f9b98
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Thu Oct 12 16:25:42 2017 +0100
+
+    Merge branch 'master' into loading
+
+[33mcommit 60f9b988c5a410d28d2e6b676e56bd42386b0a84[m
+Merge: 19fcc86 e228cfc
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Thu Oct 12 16:22:20 2017 +0100
+
+    Merge pull request #58 from astroash/swipey-issues-on-instr-modal
+    
+    #49 #14 Positioned info icon bottom left of snippet and styled buttons
+
+[33mcommit e228cfcaee1e5744f5f808264d38f0d2f46bd7e9[m
+Merge: 54aa04d 19fcc86
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Thu Oct 12 16:19:26 2017 +0100
+
+    Merge branch 'master' into swipey-issues-on-instr-modal
+
+[33mcommit 54aa04dcc79cbd3c1530be7fdbe3520c53488146[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Thu Oct 12 16:13:06 2017 +0100
+
+    #49 #14 Positioned info icon bottom left of snippet and styled buttons
+
+[33mcommit c17da5cea3cc04c4b799ed0afc20d5bcdfa0fec0[m
+Merge: c14d3d8 96672a2
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Thu Oct 12 15:52:12 2017 +0100
+
+    bar stops at 99
+
+[33mcommit 19fcc86115379be25a2b1414b796652027a29c54[m
+Merge: 1e298b4 6812019
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Thu Oct 12 15:23:06 2017 +0100
+
+    Merge pull request #57 from astroash/link2form
+    
+    #14 Click through to form
+
+[33mcommit 1e298b49b893a16dff7e6344705ecc6bd9bbfe65[m
+Merge: 96672a2 e86c523
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Thu Oct 12 15:20:48 2017 +0100
+
+    Merge pull request #53 from astroash/swipey-issues-on-instr-modal
+    
+     turned off swiping/dragging & looping
+
+[33mcommit 6812019e4336d22381cd2148208d575da3d3198a[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Thu Oct 12 15:18:41 2017 +0100
+
+    Changed classname of button to be more semantic
+    Added background colour of yellow to button
+    Relates #19
+
+[33mcommit 431ca20e390e0197319735eadae04074ab39592f[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Thu Oct 12 15:14:11 2017 +0100
+
+    #14 Click through to form
+
+[33mcommit 96672a2a45e4c4569bfdc02b612c81db151ee5b1[m
+Merge: fb12bd6 2d0b4c3
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Thu Oct 12 14:47:06 2017 +0100
+
+    Merge pull request #55 from astroash/snippets-to-div
+    
+    IconSnippet is <div>s not <button>
+
+[33mcommit 2d0b4c37dd76b915a403e34329886a471ffea435[m
+Merge: ccc1e44 fb12bd6
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Thu Oct 12 14:45:07 2017 +0100
+
+    Merge branch 'master' into snippets-to-div
+
+[33mcommit fb12bd6e644b3e3bc4c654bd30aa6083518b2dcf[m
+Merge: d5530d7 a8c8934
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Thu Oct 12 14:40:21 2017 +0100
+
+    Merge pull request #54 from astroash/link-bug
+    
+    Fixed link bug in menu
+
+[33mcommit a8c8934f28ab36fdb0415b189bd5fd6205810457[m
+Merge: 46ce0b2 e537d76
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Thu Oct 12 14:38:01 2017 +0100
+
+    Merge branch 'link-bug' of https://github.com/astroash/policy-picker into link-bug
+
+[33mcommit 46ce0b2b680652c5ac94abf7178eced12d8b15d6[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Thu Oct 12 14:37:38 2017 +0100
+
+    Re-added the /snippet endvote
+
+[33mcommit ccc1e448b623fd816b9de9241648bdd6b08975ba[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Thu Oct 12 14:35:41 2017 +0100
+
+    IconSnippet is <div>s not <button>
+
+[33mcommit d5530d74153da5c6752386ed73ff1da8e52ab806[m
+Merge: 11ba7ef 71f919b
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Thu Oct 12 14:23:01 2017 +0100
+
+    Merge pull request #52 from astroash/summary
+    
+    Summary
+
+[33mcommit 71f919bffebf34db99cf31ab509b870a4e27aa28[m
+Merge: 5f36cea 11ba7ef
+Author: AstroAsh <astroaisha@gmail.com>
+Date:   Thu Oct 12 14:13:57 2017 +0100
+
+    Merge branch 'master' into summary
+
+[33mcommit 5f36ceac3d37fcb9a8220fd918d56854b369826d[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Thu Oct 12 14:12:13 2017 +0100
+
+    #17 Bit more responsive
+
+[33mcommit e537d76ec266e0623a9c443ffd5969a4380c7781[m
+Merge: b6378d2 11ba7ef
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Thu Oct 12 13:05:42 2017 +0100
+
+    Merge branch 'master' into link-bug
+
+[33mcommit b6378d291778bcf7462e01d9433df5497ae382e3[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Thu Oct 12 13:04:06 2017 +0100
+
+    Fixed link bug in menu
+    Relates #51
+
+[33mcommit e86c52355510b6dc0ee38f2cf08d0d9ba9fddd3b[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Thu Oct 12 12:49:41 2017 +0100
+
+    oops... comma
+
+[33mcommit 5486a56a947a01a067865f49b976959be9893297[m
+Merge: 991f78f 891a38e
+Author: astroash <astroaisha@gmail.com>
+Date:   Thu Oct 12 12:48:04 2017 +0100
+
+    Merge branch 'summary' of https://github.com/astroash/policy-picker into summary
+
+[33mcommit 991f78f04b148b9a6098ab284a0f7460bb77a6f7[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Thu Oct 12 12:47:15 2017 +0100
+
+    #17 Add Max's magic
+
+[33mcommit cd5f857baa0fbeb34d3304f494e47bf384eb006b[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Thu Oct 12 12:42:58 2017 +0100
+
+    changed some config in ModalCarousel, turned off swiping/dragging & looping
+    #49
+
+[33mcommit 11ba7ef36d4945583003c4807b8c3c665cee3915[m
+Merge: a6a34bb 93f30cc
+Author: AstroAsh <astroaisha@gmail.com>
+Date:   Thu Oct 12 12:41:01 2017 +0100
+
+    Merge pull request #50 from astroash/icon-nav
+    
+    Many many styles
+
+[33mcommit 891a38efd9a9da48a9cc8d421d55149dc59b570b[m
+Merge: 229e23a 12b4c14
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Thu Oct 12 11:56:55 2017 +0100
+
+    Merge branch 'summary' of https://github.com/astroash/policy-picker into summary
+
+[33mcommit 229e23aeab42d5fa534ef85c311e05dafdb88176[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Thu Oct 12 11:56:08 2017 +0100
+
+    added policy snippet mini-descriptions
+
+[33mcommit 12b4c14a89f93c2c1cc8776b875ffcd66849bb23[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Thu Oct 12 11:37:05 2017 +0100
+
+    #17 remove console.logs oops :hankey:
+
+[33mcommit a0589dbda3453911b6363ca22fc93b6666379943[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Thu Oct 12 11:35:30 2017 +0100
+
+    #17 Add box and responsive lineheight/fontsize
+
+[33mcommit 93f30ccbbb049d35e259dcdaa5660ba0796ceae3[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Thu Oct 12 11:02:05 2017 +0100
+
+    Removed /snippet dev endpoint
+    relates #14
+
+[33mcommit 1198aa071867ba901f610912c3962f6d1c8de693[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Thu Oct 12 10:46:15 2017 +0100
+
+    Some improvements to styling
+    Relates #19
+
+[33mcommit d99550a8dd8960e0678d87d7ff07ad123baee1a5[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Wed Oct 11 21:28:24 2017 +0100
+
+    #17 Grab mini-desc for each snippet from state
+
+[33mcommit 014a579b24c9cd96880e8837f8273f8c079f3614[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 11 21:03:38 2017 +0100
+
+    Added a topic title to the policy page
+    Relates #19
+
+[33mcommit 4599b55e5cca30646d12ad06449e707a57538f52[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 11 20:46:58 2017 +0100
+
+    Added in icon on NavBar that renders from App State
+    Relates #19 styling
+
+[33mcommit cc6619a634f114af3ca9193c1c9a9b4853a62f40[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Wed Oct 11 20:44:37 2017 +0100
+
+    #17 Change state for votes
+
+[33mcommit c14d3d85a7ba72b91eed9dfb7d3d3e7ceaec04b1[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Wed Oct 11 20:29:18 2017 +0100
+
+    #43 Install react-circular-progressbar, almost functioning properly
+
+[33mcommit a6a34bb85bffb7d1c90be1bfe33dc67f9dcb5749[m
+Merge: c7a9b06 ec4ea36
+Author: AstroAsh <astroaisha@gmail.com>
+Date:   Wed Oct 11 19:43:11 2017 +0100
+
+    Merge pull request #48 from astroash/policystyle
+    
+    Policy styles
+
+[33mcommit ec4ea3669325808b2ac8d7f9b6c3af58b56cd788[m
+Merge: 6e34b04 c7a9b06
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Wed Oct 11 19:40:58 2017 +0100
+
+    Merge branch 'master' into policystyle
+
+[33mcommit 6e34b043eec820d74bdff2089adf7bd2052481b2[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Wed Oct 11 19:20:26 2017 +0100
+
+    #19 #13 Style policy carousel with responsiveness
+
+[33mcommit c7a9b064367f29f2b1b71589fda889dc3f325d78[m
+Merge: 91a8f74 0034c4d
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 11 18:17:19 2017 +0100
+
+    Merge pull request #47 from astroash/clickthroughs
+    
+    Clickthroughs
+
+[33mcommit 06720a318774c9771799a40d0f2cd787da2b828b[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Wed Oct 11 17:08:04 2017 +0100
+
+    #19 Makes policy carousel look better
+
+[33mcommit 0034c4d81be5a0c0e2d0ba5ac87ffcc719b5f39c[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Wed Oct 11 16:53:10 2017 +0100
+
+    clicks through, updating state and maintaining state from Policies page to snippets page.
+    Policy is currently hardcoded to default to 1st policy in a policy area, to prevent breakage on snippets.
+    #14
+
+[33mcommit ad92ac70186e712f890a5d078a33f123f7a60c9f[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Wed Oct 11 16:17:48 2017 +0100
+
+    passes changePolicy down from App -> PolicyCarousel -> PolicyCard;
+    adds id to policies, to be maintained.
+    App now maintains id depending on policy
+
+[33mcommit 91a8f749c4922ff85ade253b10e8ab5fd3187651[m
+Merge: 8df588a 000cf40
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Wed Oct 11 15:19:41 2017 +0100
+
+    Merge pull request #46 from astroash/change-ask-endpoint
+    
+    Changed endpoints on home
+
+[33mcommit 000cf40d42c8c04f7321c94f4350b08d7bdcdc0d[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 11 15:16:43 2017 +0100
+
+    Changed endpoints on home
+
+[33mcommit 8df588a62974f7548bb9a952531176017a5c8edf[m
+Merge: 9572841 956a907
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Wed Oct 11 15:12:09 2017 +0100
+
+    Merge pull request #44 from astroash/styles
+    
+    Made home buttons responsive
+
+[33mcommit 956a907739dc335e0404b5bb9453236cd430fb48[m
+Merge: d09cb21 9572841
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 11 15:11:39 2017 +0100
+
+    Merge branch 'master' into styles
+
+[33mcommit 957284171c921e543f79d62221f6eb764ade0c20[m
+Merge: 633b0b1 0153897
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 11 15:05:15 2017 +0100
+
+    Merge pull request #45 from astroash/ask-anon
+    
+    Ask an MP page
+
+[33mcommit d09cb21efce67efcd0b688a38a9279d7fe515bb7[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 11 14:59:51 2017 +0100
+
+    Changed font and increased responsivity
+    Relates #19
+
+[33mcommit 0153897caa902a8c3b1f5eb59fa81196555b7f23[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Wed Oct 11 14:57:20 2017 +0100
+
+    Merge master
+
+[33mcommit a1028fa550f175743ef0f57ab62328ab5c68848b[m
+Merge: d0b07aa 633b0b1
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Wed Oct 11 14:54:26 2017 +0100
+
+    Merge branch 'master' into ask-anon
+
+[33mcommit d0b07aafbba9d325076c4509153db6d88ef43ea2[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Wed Oct 11 14:53:05 2017 +0100
+
+    #18 Add upvotes and finish styling. A touch of responsiveness on desktop needed
+
+[33mcommit 5b9c06b53aee0fc5d2e282abc52e09afc95a64ed[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 11 12:58:51 2017 +0100
+
+    Changed icons to be nucleo
+    Relates #19
+
+[33mcommit 7ae3170340fd63331848f0c878b9c5e76991e8f4[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Wed Oct 11 12:18:43 2017 +0100
+
+    #18 Ask an MP page built with form, submit and past questions
+
+[33mcommit 727c75c590b794d64afa46b2beee17c8501b95e5[m
+Merge: ad82fe5 633b0b1
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 11 12:09:20 2017 +0100
+
+    Merge branch 'master' into styles
+
+[33mcommit 633b0b1947e398c3a3bd303a0c27093f135a57cc[m
+Merge: a2dee22 dc2e4d5
+Author: AstroAsh <astroaisha@gmail.com>
+Date:   Wed Oct 11 12:07:46 2017 +0100
+
+    Merge pull request #39 from astroash/vote-convert-helper
+    
+    Helper converts throw directions to true/false/null before updating to voteObj
+
+[33mcommit dc2e4d5adfab80f094fb61d30efb780fb2142a4f[m
+Merge: 76ec1c6 27eaaed
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 11 12:06:15 2017 +0100
+
+    Fixed merge issues, changed up and downvotes from true/false to '+1' and '-1' so that things that are voted on are accessible by the summary page by if they're truthy or not
+    Relates #14"
+
+[33mcommit a2dee22daecc4f9727e3294e2d9e8944eba946a8[m
+Merge: 36586fd 3fa7db6
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 11 11:59:32 2017 +0100
+
+    Merge pull request #42 from astroash/policies.json
+    
+    Added text and dummy svgs to policies.jsn; infograph
+
+[33mcommit ad82fe5589c1c35673a553bc1521170353035a13[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 11 11:52:07 2017 +0100
+
+    Made home buttons responsive
+    Made main views sit underneath the navbar
+    Relates #19
+
+[33mcommit 3fa7db64b4d8370d1762423dac3c7f7d6d440a8d[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Wed Oct 11 11:45:49 2017 +0100
+
+    removed package-lock.json
+
+[33mcommit 8690f0b4d144b9292d02edfae11a291dafb1fa46[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Wed Oct 11 11:44:48 2017 +0100
+
+    updated dummy text in infograph
+
+[33mcommit 10f234b9e65ce867cbca9e13f57fbd2c5fa469a3[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Wed Oct 11 11:22:23 2017 +0100
+
+    updated svg  in policies.json
+
+[33mcommit ea462129e42b5df82c54c7b1c35a3a31faada1ca[m
+Merge: b8a90db 36586fd
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Wed Oct 11 11:16:25 2017 +0100
+
+    Merge branch 'master' into policies.json
+
+[33mcommit b8a90db8f1c0e0c8829927cb5116a376a207bedf[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Wed Oct 11 11:15:57 2017 +0100
+
+    updated policies in policies.json
+
+[33mcommit 36586fdc4d42885b4292336c2bd54f2fb97cba7b[m
+Merge: 76ec1c6 96c2303
+Author: morkeltry <morkeltry@users.noreply.github.com>
+Date:   Wed Oct 11 10:58:59 2017 +0100
+
+    Merge pull request #41 from astroash/infograph
+    
+    Infograph
+
+[33mcommit 96c23031be3a93fe9a8ee87bf3ca76fd2530a793[m
+Merge: 8bdc202 76ec1c6
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Wed Oct 11 10:46:18 2017 +0100
+
+    Merge with master, conflict resolved
+
+[33mcommit 8bdc202e31940dead9cb040bb52419c51f24faa3[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Wed Oct 11 10:42:28 2017 +0100
+
+    #15 Separate out doughnut and line data, add horizontal margin and better copy
+
+[33mcommit b86aa9955583782581d8cccd498413d345330c4a[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 10 18:54:34 2017 +0100
+
+    #15 Get infograph modal rendering on snippets page
+
+[33mcommit 9f5b6596eb8e704bd4e216576280027c70ab55c6[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 10 18:25:00 2017 +0100
+
+    #15 Get infograph structure on page with doughnut and line graph
+
+[33mcommit 76ec1c6d5fd3022dae4a405e767fccff29d745f6[m
+Merge: 1fb2540 d998672
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Tue Oct 10 17:55:26 2017 +0100
+
+    Merge pull request #40 from astroash/snippet-style
+    
+    Snippet style
+
+[33mcommit d99867276017493c2cd98358cb9d097c1cfc0135[m
+Merge: 78e59bc 1fb2540
+Author: AstroAsh <astroaisha@gmail.com>
+Date:   Tue Oct 10 17:53:15 2017 +0100
+
+    Merge branch 'master' into snippet-style
+
+[33mcommit 1fb254003b405c6511eff7788f7801a043b415ce[m
+Merge: 2739eb6 95b8415
+Author: morkeltry <morkeltry@users.noreply.github.com>
+Date:   Tue Oct 10 17:46:00 2017 +0100
+
+    Merge pull request #38 from astroash/snippet-styles
+    
+    Snippet styles
+
+[33mcommit 27eaaede6e0e40d418de33f06cdcca8b0a88a2fd[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Tue Oct 10 17:36:34 2017 +0100
+
+    voteObj is updated with true/false/null
+
+[33mcommit 90d2f7f5c69dd8d62170f6b9d5b5fecf66759dd2[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Tue Oct 10 17:32:43 2017 +0100
+
+    voteTypeOf (thrownDirection) return true/false/null
+
+[33mcommit 78e59bc36c481db015dd4391010c4d0d1f8c6df2[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Tue Oct 10 17:28:09 2017 +0100
+
+    #14 Reverse array
+
+[33mcommit 5b3249f17fa55ba1cb8048baed3df7d8ff09295f[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Tue Oct 10 17:19:49 2017 +0100
+
+    #14 Add icons to snippet
+
+[33mcommit 95b8415fe04f6162568f6394e79eb1a31bab1418[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Tue Oct 10 17:17:57 2017 +0100
+
+    Changed app background colour to light grey
+    Relates #18
+
+[33mcommit 62b9c432bce14827ffc3798a9fc937e287266d46[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Tue Oct 10 17:07:27 2017 +0100
+
+    Added styling and snippet background #18
+
+[33mcommit b5db4fca9093b58cee712148b3170ea3dd734973[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Tue Oct 10 15:57:48 2017 +0100
+
+    Got h2 and p sitting in card container
+    Relates #18
+
+[33mcommit 2739eb6a365161b08a5eaf9082fbb7d6ab3de28f[m
+Merge: 4a27aba cc024ce
+Author: AstroAsh <astroaisha@gmail.com>
+Date:   Tue Oct 10 15:30:38 2017 +0100
+
+    Merge pull request #37 from astroash/modal
+    
+    Modal
+
+[33mcommit cc024ce25af33f521da14ae6184dfd4879a8d1cf[m
+Merge: ddd9bf6 4a27aba
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Tue Oct 10 15:20:30 2017 +0100
+
+    Merge branch 'master' into modal
+
+[33mcommit 4a27abaf85b78defbece84fe65e901892bb56334[m
+Merge: af20c58 351cc43
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Tue Oct 10 15:16:16 2017 +0100
+
+    Merge pull request #36 from astroash/snippet-view
+    
+    Snippet view
+
+[33mcommit 351cc431a24d37bbb82a72b9125bdeca5a408197[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Tue Oct 10 15:04:24 2017 +0100
+
+    Remove Max's special file
+
+[33mcommit ddd9bf6c8d9b5f2a143d520e5b0d654624a70f93[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 10 15:06:09 2017 +0100
+
+    #19 #35 Remove unnecessary images, add modal to snippet view
+
+[33mcommit 07cbb26806b3fba2f36d349bc11f65e30663ec6e[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Tue Oct 10 15:00:01 2017 +0100
+
+    #14 adding snippet votes to state :green_apple:
+
+[33mcommit 3d10cb9aa6a2546254d5a783f36c3c3fcddbd06e[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 10 14:25:14 2017 +0100
+
+    #35 Remove Max's weird ass file
+
+[33mcommit cde02ef1d13e244a1f49c803501434be6221b1c9[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Tue Oct 10 14:23:06 2017 +0100
+
+    #14 Passing down function in construction
+    :construction:
+
+[33mcommit 8883e7ff76dc435999992b2c81a69fe1dcce99cc[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 10 13:05:05 2017 +0100
+
+    #19 #35 Amend widths and alignments for modal carousel
+
+[33mcommit d52582d373db6890424927146092a70ab1e3e588[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 10 12:33:56 2017 +0100
+
+    #35 #19 Start styling modal carousel
+
+[33mcommit e304828d4c8b0840dcd59b38d4be3028cfb875b4[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 10 12:24:10 2017 +0100
+
+    #35 Get correct images rendering yo
+
+[33mcommit 803edc8ca32de2b8851db193769bc97013261ef8[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 10 12:06:28 2017 +0100
+
+    #35 Get modal image rendering on page
+
+[33mcommit 498015c545a1382fed717375bbb9e77e3fe04fbf[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Tue Oct 10 11:11:46 2017 +0100
+
+    cards disappear when thrown out Relates #14
+
+[33mcommit ccc8e0df74143b42a7c84315a3b655ef0dcdce4a[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 10 11:05:09 2017 +0100
+
+    #35 Add react-modal, modal components
+
+[33mcommit d057af980d04154df1a14ffc014dd3e81861cbbe[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Tue Oct 10 10:09:12 2017 +0100
+
+    Latest snippet view
+    Relates #18
+
+[33mcommit af20c58f990554fdc0e87dd8685fc0e445a80111[m
+Merge: 3d26f94 9f6ba7b
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Fri Oct 6 16:39:08 2017 +0100
+
+    Merge pull request #34 from astroash/form
+    
+    Form
+
+[33mcommit 0c1fabda6575935f65079e5ed9dbae0eaa6f9c38[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Fri Oct 6 16:13:21 2017 +0100
+
+    Working card swipe functionality, need to make a separate react component of the snippets/cards, and then put them in an array
+    Relates #14
+
+[33mcommit 9f6ba7bc80677808e069cd01bdff89e8fbd203c9[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Fri Oct 6 15:25:46 2017 +0100
+
+    #16 Add button responsiveness
+
+[33mcommit 073a86ccc048e2f8bc5766776a549fde56ff7cdf[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Fri Oct 6 15:05:35 2017 +0100
+
+    #16 Add questions and link to summary
+
+[33mcommit ded8f85b40c8775d42c44100cc509be7669f50e7[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Fri Oct 6 14:08:08 2017 +0100
+
+    Added in styling from react-sling example
+    Started incrementally removing CSS (which is essential to the app's functionality)
+    Trying to find a base/boilerplate version of this module
+    Will then customise into policy snippets
+    Relates #19 #14
+
+[33mcommit 22b4c5dbdf9f3b7ef8875e5290264bb35b03ba20[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Fri Oct 6 14:05:25 2017 +0100
+
+    #16 Add basic form component
+
+[33mcommit 61814625aa73309a585fd70316404f20928619e9[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Fri Oct 6 12:42:25 2017 +0100
+
+    added in example styling to react-swing
+
+[33mcommit 4cc9d204e403a59ca251112457f10db531557d51[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Fri Oct 6 12:13:28 2017 +0100
+
+    Basic card functionality
+
+[33mcommit 3d26f948d4645c58fb22e1a892f3900521c239d8[m
+Merge: 9fe07b2 93fb500
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Fri Oct 6 11:29:06 2017 +0100
+
+    Merge pull request #32 from astroash/homepage
+    
+    [WIP] Homepage
+
+[33mcommit 93fb500ad0cd312edcba3ab1c770386df35576e3[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Fri Oct 6 11:27:39 2017 +0100
+
+    #12 Wrap router in App.js and amend NavBar filename
+
+[33mcommit ebf4dc2e721fbe64c64beaa7e52d1a5dbef4e473[m
+Merge: 03a84d9 9fe07b2
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Fri Oct 6 11:20:40 2017 +0100
+
+    Merge branch 'master' into homepage
+
+[33mcommit 03a84d9c11d34926c93194be076cf911a977342b[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Fri Oct 6 11:16:50 2017 +0100
+
+    Remove unecessary functions from App.js
+
+[33mcommit 9aa74a38e14b1b9480bd9b40b268da4e3b10ca6b[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Fri Oct 6 10:53:37 2017 +0100
+
+    #33 Remove returns from menu
+
+[33mcommit 8c56fe52f96e572d5020c0123e4898c9e0232fc9[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Thu Oct 5 23:05:04 2017 +0100
+
+    #33 Add icons with no background for dropdown, needs to be pink and text to be vertically centred
+
+[33mcommit 61ccba802ba7efe13acecdda01a3566c93bddb38[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Thu Oct 5 18:30:31 2017 +0100
+
+    #12 Fix navbar margin
+
+[33mcommit 8737c9a26fc0c96cbd143fce68877ecd5947718b[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Thu Oct 5 18:16:11 2017 +0100
+
+    #12 Cosmetic changes
+    :robot:
+
+[33mcommit fd98d7cc6bbb42a31db9fb83e6c6a83d4a41096b[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Thu Oct 5 18:13:32 2017 +0100
+
+    #12 State update from navbar
+    :lipstick: :heart:
+
+[33mcommit aa1e6feee34448679ea846bd4e9e7a48e6f16134[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Thu Oct 5 15:10:14 2017 +0100
+
+    Got changeTopic function to work on click of home icons
+    Relates #12
+
+[33mcommit 3bc80db01e2611c2ca90d83901b216b33590be2f[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Thu Oct 5 14:41:04 2017 +0100
+
+    Reverted to earlier working commit
+    Relates #12
+
+[33mcommit 9fe07b22d6486d3b3287451655170ad800122581[m
+Merge: d4e3084 14578c5
+Author: AstroAsh <astroaisha@gmail.com>
+Date:   Thu Oct 5 14:18:41 2017 +0100
+
+    Merge pull request #31 from astroash/jest-fix
+    
+    Tests now works
+
+[33mcommit 14578c59848530d3b1f61831476282343c5f1388[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Thu Oct 5 10:48:37 2017 +0100
+
+    #27 #30 Remove polyfill test script and add it to setupTests.js with matchMedia fix. Tests now work with no need for ejection!!!
+
+[33mcommit 74b8a91212711b8e14429d5c18759308bbb94cd2[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Thu Oct 5 08:17:01 2017 +0100
+
+    Got burger menu to float right
+    Set Maximum Width of page to 60 using tachyons
+    Made icons larger
+    Made menu items into links
+    Factored NavBar out into the App component to make our code DRYer
+    Did some styling
+    Still need an icon in the center of the navbar which changes according to the currentTopic, and an ability to update the state.currentTopic onClick of an Icon component on our home screen
+    Need SVGs to appear next to each link in the menu (as in our inVision prototype
+    Relates #12 display-homepage and #19 styling
+
+[33mcommit d7f332d80e1fdf220f1690c9633839c43adabefb[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 4 15:38:11 2017 +0100
+
+    Added links to each section endpoint #12
+
+[33mcommit d4e308411eda9633b578be4cf6e6bf2a68744f8d[m
+Merge: 729cc54 b186351
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 4 15:16:49 2017 +0100
+
+    Merge pull request #29 from astroash/setup-router
+    
+    Setup router
+
+[33mcommit b18635129765007ff07645061188ac670e385688[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Wed Oct 4 12:49:23 2017 +0100
+
+    #28 added router, Route to App.js
+
+[33mcommit 23432a36316c030068b256cb1d61032f3f6f25f3[m
+Merge: fc2663a 94947a0
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Wed Oct 4 12:19:40 2017 +0100
+
+    Merge branch 'setup-router' of https://github.com/astroash/policy-picker into setup-router
+
+[33mcommit fc2663a50d8f0e8fac9f8d126a1ef6e646dee0cb[m
+Merge: 29d8be0 729cc54
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Wed Oct 4 12:18:24 2017 +0100
+
+    resolved tirvial merge conflict
+
+[33mcommit 94947a0ec32f0a7bc5d7d2f4ef54e01ee8630640[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Wed Oct 4 12:16:25 2017 +0100
+
+    #28 routes in construction
+    :construction
+
+[33mcommit 729cc54fc15b5cb8b7d8da83117ff242aa60c8ec[m
+Merge: 84e3dd2 26b2c49
+Author: AstroAsh <astroaisha@gmail.com>
+Date:   Wed Oct 4 11:53:25 2017 +0100
+
+    Merge pull request #26 from astroash/file-structure
+    
+    changed filenames to follow capitalised convention
+
+[33mcommit 26b2c4900bf640e81de4f2e0bb8bb86231e5183f[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 4 11:48:52 2017 +0100
+
+    c'mon now...
+
+[33mcommit c7efa4b50607e5efbe8595c74fdb3467633d0d28[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 4 11:44:16 2017 +0100
+
+    capitallllsssss
+
+[33mcommit 28fde1cdadcb0cdc33446544d5e4d9b0586fa396[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 4 11:41:00 2017 +0100
+
+    CAPITALISE :poop:
+
+[33mcommit 59edec8846c902e3eac58dc7c56c60fa5a364fd6[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 4 11:31:22 2017 +0100
+
+    changed filenames to follow capitalised convention
+
+[33mcommit 84e3dd265e5758d9e914b27ca8fac8dd8d7fbeb5[m
+Merge: 0927362 e91ce8a
+Author: AstroAsh <astroaisha@gmail.com>
+Date:   Wed Oct 4 11:24:00 2017 +0100
+
+    Merge pull request #25 from astroash/policy-carousel
+    
+    Policy carousel
+
+[33mcommit e91ce8aca55b600c6c8c3898ddf877523ab650db[m
+Merge: f821791 0927362
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Wed Oct 4 11:15:29 2017 +0100
+
+    Merge branch 'master' into policy-carousel
+
+[33mcommit 09273624ae4e0f3837b15e3b8839afa54921da5a[m
+Merge: f9c350c 3557b24
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Wed Oct 4 11:09:33 2017 +0100
+
+    Merge pull request #24 from astroash/display-homepage
+    
+    Display homepage
+
+[33mcommit 3557b24095557cbf10b0bb35893794fa38afb244[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 4 11:08:56 2017 +0100
+
+    Shifted the file structure to be more easily mergable
+    Relates #12
+
+[33mcommit f8217914286a907aec4967eb136354ea2545faa6[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Wed Oct 4 11:05:30 2017 +0100
+
+    #12 Change policies json file and spread props in PolicyCard
+
+[33mcommit a32f4a31b8b03d239aed40e367b23e59b0a66bde[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 4 10:56:38 2017 +0100
+
+    Created a home view, and an icon component which correctly renders svg buttons as a background image
+    Relates #12
+
+[33mcommit 1597724f57c63506746add05a9f67dbf72402841[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Wed Oct 4 10:45:53 2017 +0100
+
+    #12 Turn policycarousel into functional component
+
+[33mcommit 2309fb56eab78362778656165db7141df0f9e81f[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Wed Oct 4 00:05:46 2017 +0100
+
+    Starts made #12
+
+[33mcommit 7b963f80a8e36c1f62c2b0b76b018cb093ffa094[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 3 23:04:48 2017 +0100
+
+    #13 Fix policy cards rendering
+
+[33mcommit 0c265225ca7188d352234fa6d206db156a4ff86b[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 3 17:52:09 2017 +0100
+
+    #13 Finish PolicyCard component, get policy card information on the carousel but not fully working :sparkles:
+
+[33mcommit 29d8be0ca83a9ceb890c07a1f8069cbf0088bcb4[m
+Author: Morkeltry <morkeltry@mailfence.com>
+Date:   Tue Oct 3 17:36:30 2017 +0100
+
+    installed react-scripts!
+
+[33mcommit 5f40e5574ca66f0c98b9d1081601d286f11a5903[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 3 17:22:03 2017 +0100
+
+    #13 Create _policyCardArray custom method, dummy policies data, start of PolicyCard component
+
+[33mcommit 48ec50225274951ef4226dc82c621c254e766525[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 3 16:47:31 2017 +0100
+
+    #13 Create policy carousel component, install react-slick and slick-carousel
+
+[33mcommit 043c35ee78107c7276eb6062a45e7b4915852f03[m
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Tue Oct 3 15:56:37 2017 +0100
+
+    removed remnants of boiletplate CSS #12
+
+[33mcommit f9c350c4d6f6fb1a80e329b1133392397b5940df[m
+Merge: 3a670af 4025278
+Author: Amélie <amelie.chan@gmail.com>
+Date:   Tue Oct 3 15:51:32 2017 +0100
+
+    Merge pull request #22 from astroash/travis
+    
+    #2 Add travis.yml
+
+[33mcommit 40252787f5a681b413c87ad8bd21341b57112c5e[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Tue Oct 3 15:43:50 2017 +0100
+
+    #2 Add polyfiller and coverage for tests
+    :robot:
+
+[33mcommit ef35185fef25b7752f1a2922cbae699b8e928b16[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Tue Oct 3 15:10:40 2017 +0100
+
+    #2 Add a different travis.yml x3
+    :construction:
+
+[33mcommit 12ee70d6497668a74010889bc3c3c9ad4faad6f8[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Tue Oct 3 15:06:51 2017 +0100
+
+    #2 Add a different travis.yml x2
+    :construction:
+
+[33mcommit 1d529871d6b6bc5dab46e17ee8182f7d9907580e[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Tue Oct 3 15:03:36 2017 +0100
+
+    #2 Add a different travis.yml
+    :construction:
+
+[33mcommit 4157cb70ceb6927cf1ce5fb50e28ef39ae68f338[m
+Author: astroash <astroaisha@gmail.com>
+Date:   Tue Oct 3 14:55:34 2017 +0100
+
+    #2 Add travis.yml
+    :construction:
+
+[33mcommit 3a670afc102d16df63216110bfe0c270a8bdf8f2[m
+Merge: e6308d6 75d918c
+Author: Max Gerber <mgerber94@gmail.com>
+Date:   Tue Oct 3 14:04:29 2017 +0100
+
+    Merge pull request #20 from astroash/setup
+    
+    #2 Setup React, eslint, tachyons
+
+[33mcommit 75d918ccc13dd52c9c014f58678b438297e4ad7e[m
+Author: ameliejyc <amelie.chan@gmail.com>
+Date:   Tue Oct 3 13:02:10 2017 +0100
+
+    #2 Setup React, eslint, tachyons
+
+[33mcommit e6308d641b3a281f9cc96b15167fbfb9acc3732e[m
+Author: AstroAsh <astroaisha@gmail.com>
+Date:   Tue Sep 26 22:28:11 2017 +0100
+
+    Update README.md
+
+[33mcommit d24bcfab119a5c40d0655aa2890349172ef8c657[m
+Author: AstroAsh <astroaisha@gmail.com>
+Date:   Tue Sep 26 19:38:36 2017 +0100
+
+    Create README.md
+
+[33mcommit 848d647e7f113251fd47916981ff4ab2072bb308[m
+Author: AstroAsh <astroaisha@gmail.com>
+Date:   Tue Sep 26 19:38:21 2017 +0100
+
+    Initial commit
