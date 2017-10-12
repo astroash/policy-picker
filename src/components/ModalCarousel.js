@@ -11,7 +11,7 @@ const ModalCarousel = props => {
     accessibility: true,
     speed: 700,
     fade: true,
-    className: 'bg-white'
+    className: 'bg-white',
     swipeToSlide: true,
     draggable: false,
     infinite: false
