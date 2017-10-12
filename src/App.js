@@ -56,7 +56,7 @@ class App extends Component {
             currentIcon={`current-${lowerCaseNoSpace(this.state.currentTopic)}`}
             toggleMenu={this.toggleMenu}
           />
-          <Menu id="menu" cssImg={this.state.menuDisplayed ? 'fixed' : 'dn'} />
+          <Menu id="menu" changeTopic={this.changeTopic} toggleMenu={this.toggleMenu} cssImg={this.state.menuDisplayed ? 'fixed' : 'dn'} />
           <main className="main">
             <Switch>
               <Route exact path="/" render={() => <Home changeTopic={this.changeTopic} />} />
@@ -78,6 +78,9 @@ class App extends Component {
               <Route exact path="/form" render={() => <Form />} />
               <Route exact path="/summary" render={() => <Summary snippetUpvotes={this.state.snippetUpvotes} snippetDownvotes={this.state.snippetDownvotes}/>}/>
               <Route exact path="/ask" render={() => <AskAnMP />} />
+              <Route exact path="/snippet" render={() => (
+              <SnippetView currentPolicy={this.state.currentPolicy} updateSnippetVote={this.updateSnippetVote} /> )} />
+
               {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
             </Switch>
           </main>

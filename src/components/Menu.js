@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import IconNoBg from './IconNoBg';
-const Menu = ({ cssImg, changeTopic, toggleMenu }) => {
+
+const Menu = ({ changeTopic, toggleMenu, cssImg }) => {
   return (
     <ul
       className={`menu sans-serif list w-100 bg-white tc f3 mw6 hot-pink ${cssImg}`}>
