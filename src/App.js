@@ -52,74 +52,25 @@ class App extends Component {
           <Menu id="menu" cssImg={this.state.menuDisplayed ? 'fixed' : 'dn'} />
           <main className="main">
             <Switch>
-              <Route
-                exact
-                path="/"
-                render={() => <Home changeTopic={this.changeTopic} />}
-              />
-              <Route
-                exact
-                path="/ownership"
-                render={() => (
+              <Route exact path="/" render={() => <Home changeTopic={this.changeTopic} />} />
+              <Route exact path="/ownership" render={() => (
+                  <PolicyCarousel currentTopic={this.state.currentTopic} changePolicy={this.changePolicy} />)} />
+              <Route exact path="/tax" render={() => (
+                  <PolicyCarousel currentTopic={this.state.currentTopic}
+                  changePolicy={this.changePolicy} /> )} />
+              <Route exact path="/technology" render={() => (
+                  <PolicyCarousel currentTopic={this.state.currentTopic}
+                  changePolicy={this.changePolicy} /> )} />
+              <Route exact path="/welfare" render={() => (
                   <PolicyCarousel
                     currentTopic={this.state.currentTopic}
-                    changePolicy={this.changePolicy}
-                  />
-                )}
-              />
-              <Route
-                exact
-                path="/tax"
-                render={() => (
-                  <PolicyCarousel
-                    currentTopic={this.state.currentTopic}
-                    changePolicy={this.changePolicy}
-                  />
-                )}
-              />
-              <Route
-                exact
-                path="/technology"
-                render={() => (
-                  <PolicyCarousel
-                    currentTopic={this.state.currentTopic}
-                    changePolicy={this.changePolicy}
-                  />
-                )}
-              />
-              <Route
-                exact
-                path="/welfare"
-                render={() => (
-                  <PolicyCarousel
-                    currentTopic={this.state.currentTopic}
-                    changePolicy={this.changePolicy}
-                  />
-                )}
-              />
-              <Route
-                exact
-                path="/workplace"
-                render={() => (
-                  <PolicyCarousel
-                    currentTopic={this.state.currentTopic}
-                    changePolicy={this.changePolicy}
-                  />
-                )}
-              />
+                    changePolicy={this.changePolicy} /> )} />
+              <Route exact path="/workplace" render={() => (
+                  <PolicyCarousel currentTopic={this.state.currentTopic}
+                    changePolicy={this.changePolicy} /> )} />
               <Route exact path="/form" render={() => <Form />} />
               <Route exact path="/summary" />
               <Route exact path="/ask" render={() => <AskAnMP />} />
-              <Route
-                exact
-                path="/snippet"
-                render={() => (
-                  <SnippetView
-                    currentPolicy={this.state.currentPolicy}
-                    updateSnippetVote={this.updateSnippetVote}
-                  />
-                )}
-              />
               {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
             </Switch>
           </main>
