@@ -50,3 +50,39 @@
   margin-left: calc(25px - 1vw);
   margin-right: calc(25px - 1vw);
 }
+
+.current-icon {
+  height: 3rem;
+  width: 3rem;
+  border: none;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+  background-color: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.current-home {
+  background-image: url('../assets/icons/white/home.svg');
+}
+
+.current-tax {
+  background-image: url('../assets/icons/white/tax.svg');
+}
+.current-ownership {
+  background-image: url('../assets/icons/white/ownership.svg');
+}
+.current-technology {
+  background-image: url('../assets/icons/white/tech.svg');
+}
+.current-welfare {
+  background-image: url('../assets/icons/white/welfare.svg');
+}
+.current-workplace {
+  background-image: url('../assets/icons/white/workplace.svg');
+}
+.current-askanmp {
+  background-image: url('../assets/icons/white/ask.svg');
+}
