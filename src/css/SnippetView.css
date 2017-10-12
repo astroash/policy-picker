@@ -20,15 +20,16 @@
 }
 
 #viewport .stack {
-  width: 30rem;
+  width: 100%;
   height: 400px;
   position: relative;
   margin: 10% auto;
 }
 
 #viewport .card {
-  width: 30rem;
-  height: 400px;
+  width: 100%;
+  /*width: 30rem;*/
+  /*height: 400px;*/
   list-style: none;
   background: #fff;
   border-radius: 5px;
@@ -68,9 +69,9 @@
 }
 
 .snippet {
-  width: 250px;
-  height: 300px;
-  padding: 6rem;
+  min-width: 250px;
+  min-height: 300px;
+  padding: 2rem;
 }
 
 .snippet h2 {
