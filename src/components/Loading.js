@@ -20,7 +20,7 @@ class ChangingProgressbar extends React.Component {
           currentPercentageIndex: (this.state.currentPercentageIndex + 1) % this.props.percentages.length
         });
       } else {
-        setTimeout ( ()=> {window.location='/'}, 400);
+        setTimeout ( ()=> {window.location='/home'}, 400);
       }
     }, this.props.interval);
 

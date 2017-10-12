@@ -60,8 +60,8 @@ class App extends Component {
           <Menu id="menu" changeTopic={this.changeTopic} toggleMenu={this.toggleMenu} cssImg={this.state.menuDisplayed ? 'fixed' : 'dn'} />
           <main className="main">
             <Switch>
-              <Route exact path="/loading" render={() => <Loading {...this.props} />} />
-              <Route exact path="/" render={() => <Home changeTopic={this.changeTopic} />} />
+              <Route exact path="/" render={() => <Loading {...this.props} />} />
+              <Route exact path="/home" render={() => <Home changeTopic={this.changeTopic} />} />
               <Route exact path="/ownership" render={() => (
                   <PolicyCarousel currentTopic={this.state.currentTopic} changePolicy={this.changePolicy} />)} />
               <Route exact path="/tax" render={() => (
