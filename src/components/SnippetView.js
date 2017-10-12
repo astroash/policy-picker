@@ -56,7 +56,7 @@ class SnippetView extends Component {
           }}>
           {this.arrayOfSnippetComponents(policies.EC[this.props.currentPolicy].snippets)}
           <Link to='/form'>
-            <button className="tc bg-yellow center stack-button bn br-100 icon icon-bg">Click through to your Summary</button>
+            <button className="tc center stack-button bn br-100">Click through to your Summary</button>
           </Link>
         </Swing>
         <IconSnippet cssImg="bin" />
