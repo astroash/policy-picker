@@ -22,14 +22,14 @@ class ModalSnippet extends React.Component {
   render() {
     return (
       <div>
-        <button onClick={this.handleOpenModal}>?</button>
+        <button className="modal-button pointer br2 ba b--black bg-white b" onClick={this.handleOpenModal}>?</button>
         <ReactModal
           isOpen={this.state.showModal}
           contentLabel="onRequestClose Example"
           onRequestClose={this.handleCloseModal}
           className="w-90 h-90 w-30-l w-60-m tc center mt5 bg-white"
           overlayClassName="overlay">
-          <button className="center" onClick={this.handleCloseModal}>
+          <button className="pointer br2 ba b--black bg-white b mt1" onClick={this.handleCloseModal}>
             X
           </button>
           <ModalCarousel />

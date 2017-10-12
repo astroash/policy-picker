@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Snippet from './Snippet';
 import policies from '../data/policies.json';
 import ModalSnippet from './ModalSnippet';
-import ModalInfograph from './ModalInfograph';
 import IconSnippet from './IconSnippet';
 import voteTypeOf from '../helpers/convert-direction';
 import { Link } from 'react-router-dom';
@@ -44,7 +43,6 @@ class SnippetView extends Component {
     return (
       <div id="viewport">
         <ModalSnippet />
-        <ModalInfograph />
         <IconSnippet cssImg="megaphone" />
         <Swing
           config={config}
