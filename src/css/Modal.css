@@ -6,6 +6,16 @@
   height: 0;
   width: 0;
 }
+.modal-info {
+  position: absolute;
+  right: 6rem;
+  bottom: 3rem;
+  background-color: hotpink;
+  color: white;
+  border-radius: 5px;
+  padding: 0rem 0.5rem;
+  font-size: 2rem;
+}
 
 .modal-button:focus {
   outline: none;
