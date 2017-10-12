@@ -29,6 +29,7 @@ class App extends Component {
 
   changeTopic = topic => {
     this.setState({ currentTopic: topic });
+    console.log('this.props.location: ', this.props.location);
   };
 
   changePolicy = policyId => {
