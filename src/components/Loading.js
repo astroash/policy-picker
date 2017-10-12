@@ -28,11 +28,12 @@ class ChangingProgressbar extends React.Component {
 
 
   render() {
-    return <CircularProgressbar {...this.props} percentage={this.props.percentages[this.state.currentPercentageIndex]} />;
+    return <CircularProgressbar {...this.props} percentage={this.props.percentages[this.state.currentPercentageIndex]}
+    />;
   }
 }
 ChangingProgressbar.defaultProps = {
-  interval: 22,
+  interval: 92,
   strokeWidth: 4
 }
 
