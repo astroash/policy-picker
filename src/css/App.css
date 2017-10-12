@@ -6,6 +6,7 @@ body {
   background-color: #f3f1f1;
   background-repeat: repeat-y;
   min-height: 100vh;
+  z-index: -2;
 }
 
 .main {
