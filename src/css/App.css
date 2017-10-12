@@ -19,10 +19,3 @@ body {
 .summary--margin {
   margin-top: 2vw;
 }
-
-.button-test{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}

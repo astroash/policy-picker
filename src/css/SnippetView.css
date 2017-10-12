@@ -84,3 +84,11 @@
   font-size: 1rem;
   line-height: 1.6;
 }
+
+
+.stack-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
