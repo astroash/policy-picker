@@ -35,3 +35,9 @@ body {
 .main {
   padding: 5.5rem 1rem 0.5rem;
 }
+
+/*summary*/
+.summary__ul {
+  font-size: calc(1rem + 0.7vw);
+  line-height: calc(1.2rem + 2vw)
+}
