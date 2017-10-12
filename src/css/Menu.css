@@ -33,3 +33,28 @@
   background-image: url('../assets/icons/pink/ask.svg');
   background-color: white;
 }
+
+.burger {
+  height: 3rem;
+  width: 3rem;
+  border: none;
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  background: url('../assets/burger.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: none;
+  cursor: pointer;
+}
+
+.menu {
+  z-index: 2;
+  margin-top: 4rem;
+  box-shadow: 0px 5px 8px 0px rgba(136, 136, 136, 0.18);
+}
+
+.menu li {
+  line-height: 1;
+  cursor: pointer;
+}

@@ -14,6 +14,9 @@
   width: 6rem;
 }
 
+
+/*transform: scale(0.7, 0.7) translate(-5vw, -5vw);*/
+
 /*Stack styles*/
 #viewport {
   margin: auto;
@@ -23,10 +26,12 @@
   width: 30rem;
   height: 400px;
   position: relative;
-  margin: 10% auto;
+  margin: auto;
+  z-index: 1;
 }
 
 #viewport .card {
+  /*transform: translate(calc(100px - 18vw), calc(100px - 18vw));*/
   width: 30rem;
   height: 400px;
   list-style: none;
@@ -82,4 +87,12 @@
 .snippet p {
   font-size: 1rem;
   line-height: 1.6;
+}
+
+.stack-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }

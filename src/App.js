@@ -9,17 +9,19 @@ import Menu from './components/Menu';
 import Form from './components/Form';
 import AskAnMP from './components/AskAnMP';
 import Loading from './components/Loading';
+import lowerCaseNoSpace from './helpers/lowercase-no-spacing';
 
 class App extends Component {
   constructor() {
     super();
 
     this.state = {
-      currentTopic: null,
+      currentTopic: 'Home',
       currentPolicy: 1,
       currentSnippet: null,
       menuDisplayed: false,
-      snippetVotes: []
+      snippetUpvotes: ["EC.1.1", "EC.1.3", "EC.1.4"],
+      snippetDownvotes: ["EC.1.2"]
     };
   }
 
@@ -29,14 +31,20 @@ class App extends Component {
 
   changeTopic = topic => {
     this.setState({ currentTopic: topic });
+    console.log('this.props.location: ', this.props.location);
   };
 
   changePolicy = policyId => {
     this.setState({ currentPolicy: policyId });
   };
 
-  updateSnippetVote = newVoteObj => {
-    this.setState({ snippetVotes: this.state.snippetVotes.concat(newVoteObj) });
+  updateSnippetVote = (id, vote) => {
+    console.log(id, vote);
+    if (vote === '+1'){
+      this.setState({ snippetUpvotes: this.state.snippetUpvotes.concat(id) });
+    } else {
+      this.setState({ snippetDownvotes: this.state.snippetDownvotes.concat(id) });
+    }
   };
 
   render() {
@@ -44,25 +52,34 @@ class App extends Component {
       <Router>
         <div className="mw6 center app">
           <NavBar
-            css="nav white relative h3 mw6"
+            css={`nav white relative h3 mw6`}
+            currentIcon={`current-${lowerCaseNoSpace(this.state.currentTopic)}`}
             toggleMenu={this.toggleMenu}
           />
-          <Menu id="menu" cssImg={this.state.menuDisplayed ? 'fixed' : 'dn'} />
+          <Menu id="menu" changeTopic={this.changeTopic} toggleMenu={this.toggleMenu} cssImg={this.state.menuDisplayed ? 'fixed' : 'dn'} />
           <main className="main">
             <Switch>
               <Route exact path="/loading" render={() => <Loading />} />
               <Route exact path="/" render={() => <Home changeTopic={this.changeTopic} />} />
-              <Route exact path="/ownership" render={() => ( <PolicyCarousel changePolicy={this.changePolicy} /> )} />
-              <Route exact path="/tax" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
-              <Route exact path="/technology" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
-              <Route exact path="/welfare" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
-              <Route exact path="/workplace" render={() => <PolicyCarousel changePolicy={this.changePolicy} />} />
+              <Route exact path="/ownership" render={() => (
+                  <PolicyCarousel currentTopic={this.state.currentTopic} changePolicy={this.changePolicy} />)} />
+              <Route exact path="/tax" render={() => (
+                  <PolicyCarousel currentTopic={this.state.currentTopic}
+                  changePolicy={this.changePolicy} /> )} />
+              <Route exact path="/technology" render={() => (
+                  <PolicyCarousel currentTopic={this.state.currentTopic}
+                  changePolicy={this.changePolicy} /> )} />
+              <Route exact path="/welfare" render={() => (
+                  <PolicyCarousel
+                    currentTopic={this.state.currentTopic}
+                    changePolicy={this.changePolicy} /> )} />
+              <Route exact path="/workplace" render={() => (
+                  <PolicyCarousel currentTopic={this.state.currentTopic}
+                    changePolicy={this.changePolicy} /> )} />
               <Route exact path="/form" render={() => <Form />} />
-              <Route exact path="/summary" />
+              <Route exact path="/summary" render={() => <Summary snippetUpvotes={this.state.snippetUpvotes} snippetDownvotes={this.state.snippetDownvotes}/>}/>
               <Route exact path="/ask" render={() => <AskAnMP />} />
-              <Route exact path="/snippet" render={() => (
-                  <SnippetView currentPolicy={this.state.currentPolicy} updateSnippetVote={this.updateSnippetVote} />
-                )} />
+              <Route exact path="/snippet" render={() => ( <SnippetView currentPolicy={this.state.currentPolicy} updateSnippetVote={this.updateSnippetVote} /> )} />
               {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
             </Switch>
           </main>
