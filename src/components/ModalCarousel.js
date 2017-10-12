@@ -12,6 +12,9 @@ const ModalCarousel = props => {
     speed: 700,
     fade: true,
     className: 'bg-white'
+    swipeToSlide: true,
+    draggable: false,
+    infinite: false
   };
   const modalCardArray = (obj, img) => {
     return Object.keys(obj).map(key => {
