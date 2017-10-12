@@ -78,9 +78,7 @@ class App extends Component {
               <Route exact path="/form" render={() => <Form />} />
               <Route exact path="/summary" render={() => <Summary snippetUpvotes={this.state.snippetUpvotes} snippetDownvotes={this.state.snippetDownvotes}/>}/>
               <Route exact path="/ask" render={() => <AskAnMP />} />
-              <Route exact path="/snippet" render={() => (
-              <SnippetView currentPolicy={this.state.currentPolicy} updateSnippetVote={this.updateSnippetVote} /> )} />
-
+              <Route exact path="/snippet" render={() => ( <SnippetView currentPolicy={this.state.currentPolicy} updateSnippetVote={this.updateSnippetVote} /> )} />
               {/* <Route exact path='/askanon' render={() => <Dummy />} /> */}
             </Switch>
           </main>
