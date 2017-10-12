@@ -13,9 +13,9 @@ class ChangingProgressbar extends React.Component {
   componentDidMount() {
     let refreshInterval = setInterval(() => {
       this.setState({
-        currentPercentageIndex: (this.state.currentPercentageIndex + 1) % (this.props.percentages.length)
+        currentPercentageIndex: (this.state.currentPercentageIndex + 1)
       });
-      if (this.props.currentPercentageIndex === 99) {
+      if (this.props.currentPercentageIndex === 95) {
         clearInterval(refreshInterval);
       }
     }, this.props.interval);
@@ -27,7 +27,7 @@ class ChangingProgressbar extends React.Component {
 }
 
 ChangingProgressbar.defaultProps = {
-  interval: 200,
+  interval: 100,
   stroke: 3
 }
 
