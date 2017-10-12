@@ -38,6 +38,8 @@ body {
 
 /*summary*/
 .summary__ul {
-  font-size: calc(1rem + 0.7vw);
-  line-height: calc(1.2rem + 2vw)
+  font-size: calc(0.6rem + 0.7vw);
+}
+.summary--margin {
+  margin-top: 2vw;
 }
