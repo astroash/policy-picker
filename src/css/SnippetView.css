@@ -44,6 +44,7 @@
   background-size: 100% 100%;
   box-sizing: border-box;
   cursor: default;
+  z-index: 1;
 }
 
 #viewport .clubs,
@@ -82,4 +83,12 @@
 .snippet p {
   font-size: 1rem;
   line-height: 1.6;
+}
+
+
+.stack-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }

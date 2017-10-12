@@ -8,30 +8,14 @@ body {
   min-height: 100vh;
 }
 
-.burger {
-  height: 3rem;
-  width: 3rem;
-  border: none;
-  position: absolute;
-  right: 1rem;
-  top: 0.5rem;
-  background: url('../assets/burger.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: none;
-  cursor: pointer;
-}
-.menu {
-  z-index: 1;
-  margin-top: 4rem;
-  box-shadow: 0px 5px 8px 0px rgba(136, 136, 136, 0.18);
-}
-
-.menu li {
-  line-height: 1;
-  cursor: pointer;
-}
-
 .main {
-  padding: 5.5rem 1rem 0.5rem;
+  padding: calc(4rem + 1.5vw) 1rem 0.5rem;
+}
+
+/*summary*/
+.summary__ul {
+  font-size: calc(0.6rem + 0.7vw);
+}
+.summary--margin {
+  margin-top: 2vw;
 }
