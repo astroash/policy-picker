@@ -1,9 +1,13 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Redirect } from 'react-router';
 // import router from 'react-router';
 
 import CircularProgressbar from 'react-circular-progressbar';
+=======
+>>>>>>> c8b49eff20f4bb31b56e342479627329b8e7834d
 import '../css/Loading.css';
+import CircularProgressbar from 'react-circular-progressbar';
 
 class ChangingProgressbar extends React.Component {
   constructor(props) {
@@ -14,6 +18,7 @@ class ChangingProgressbar extends React.Component {
   }
 
   componentDidMount() {
+<<<<<<< HEAD
     setInterval(() => {
       if (this.state.currentPercentageIndex <99) {
         this.setState({
@@ -21,6 +26,14 @@ class ChangingProgressbar extends React.Component {
         });
       } else {
         setTimeout ( ()=> {window.location='/home'}, 400);
+=======
+    let refreshInterval = setInterval(() => {
+      this.setState({
+        currentPercentageIndex: (this.state.currentPercentageIndex + 1)
+      });
+      if (this.props.currentPercentageIndex === 95) {
+        clearInterval(refreshInterval);
+>>>>>>> c8b49eff20f4bb31b56e342479627329b8e7834d
       }
     }, this.props.interval);
 
@@ -32,19 +45,32 @@ class ChangingProgressbar extends React.Component {
     />;
   }
 }
+
 ChangingProgressbar.defaultProps = {
+<<<<<<< HEAD
   interval: 92,
   strokeWidth: 4
+=======
+  interval: 100,
+  stroke: 3
+>>>>>>> c8b49eff20f4bb31b56e342479627329b8e7834d
 }
 
-const Loading = () => {
-  return (
-    <div className="loading mt5">
-      <ChangingProgressbar
-        percentages={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]}
-      />
-    </div>
-  );
-};
+class Loading extends React.Component {
+  render() {
+    return (
+      <div className="container">
+        <div className="row mt-3">
+          <ChangingProgressbar
+            percentages={[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 99]}
+            classForPercentage={(percentage) => {
+              return percentage === 99 ? 'complete' : 'incomplete';
+            }}
+          />
+        </div>
+      </div>
+    );
+  }
+}
 
 export default Loading;

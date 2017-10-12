@@ -1,11 +1,13 @@
 body {
   font-family: Ubuntu, sans-serif;
+  background: grey;
 }
 
 .app {
   background-color: #f3f1f1;
   background-repeat: repeat-y;
   min-height: 100vh;
+  z-index: -2;
 }
 
 .main {
@@ -14,7 +16,7 @@ body {
 
 /*summary*/
 .summary__ul {
-  font-size: calc(0.6rem + 0.7vw);
+  font-size: calc(0.8rem + 0.4vw);
 }
 .summary--margin {
   margin-top: 2vw;

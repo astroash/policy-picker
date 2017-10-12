@@ -1,4 +1,4 @@
-.CircularProgressbar .CircularProgressbar-path {
+.CircularProgressbar.incomplete .CircularProgressbar-path {
   stroke: hotpink;
   stroke-linecap: round;
   transition: stroke-dashoffset 0.5s ease 0s;
@@ -13,4 +13,8 @@
   font-size: 1.5rem;
   dominant-baseline: middle;
   text-anchor: middle;
+}
+
+.CircularProgressbar.complete .CircularProgressbar-path {
+  stroke: yellow;
 }
