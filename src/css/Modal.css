@@ -1,3 +1,16 @@
+.modal-card {
+  height: calc(800px - 18vh);
+}
+
+.infograph-container {
+  height: 0;
+  width: 0;
+}
+
+.modal-button:focus {
+  outline: none;
+}
+
 .overlay {
   position: fixed;
   top: 0;

@@ -21,15 +21,15 @@ class ModalInfograph extends React.Component {
 
   render() {
     return (
-      <div>
-        <button onClick={this.handleOpenModal}>?</button>
+      <div className="infograph-container">
+        <button className="modal-button pointer ba b--white bg-white b h2 pink" onClick={this.handleOpenModal}>i</button>
         <ReactModal
           isOpen={this.state.showModal}
           contentLabel="onRequestClose Example"
           onRequestClose={this.handleCloseModal}
           className="w-90 h-90 w-30-l w-60-m tc center mt5 ph2 bg-white"
           overlayClassName="overlay">
-          <button className="center" onClick={this.handleCloseModal}>
+          <button className="center pointer br2 ba b--black bg-white b mt1" onClick={this.handleCloseModal}>
             X
           </button>
           <Infograph />
