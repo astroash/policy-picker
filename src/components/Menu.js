@@ -77,7 +77,7 @@ const Menu = ({ changeTopic, toggleMenu, cssImg }) => {
         </li>
       </Link>
       <Link
-        to="/askanon"
+        to="/ask"
         style={{ textDecoration: 'none' }}
         onClick={() => {
           toggleMenu();
