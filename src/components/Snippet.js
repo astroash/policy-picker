@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/Images.css';
 import ModalInfograph from './ModalInfograph';
 
 const Snippet = ({ title, desc, id }) => {
