@@ -22,7 +22,7 @@ class ModalInfograph extends React.Component {
   render() {
     return (
       <div className="infograph-container">
-        <button className="modal-button pointer ba b--white bg-white b h2 pink" onClick={this.handleOpenModal}>i</button>
+        <button className="modal-button bn modal-info pointer" onClick={this.handleOpenModal}>i</button>
         <ReactModal
           isOpen={this.state.showModal}
           contentLabel="onRequestClose Example"
