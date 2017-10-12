@@ -5,6 +5,7 @@ import ModalSnippet from './ModalSnippet';
 import ModalInfograph from './ModalInfograph';
 import IconSnippet from './IconSnippet';
 import voteTypeOf from '../helpers/convert-direction';
+import { Link } from 'react-router-dom';
 import '../css/SnippetView.css';
 
 import Swing from 'react-swing';
@@ -56,6 +57,9 @@ class SnippetView extends Component {
             this.props.updateSnippetVote(e.target.firstChild.id, voteTypeOf(e.throwDirection));
           }}>
           {this.arrayOfSnippetComponents(policies.EC[this.props.currentPolicy].snippets)}
+          <Link to='/form'>
+            <button className="tc center button-test bn br-100 icon icon-bg">Click through to your Summary</button>
+          </Link>
         </Swing>
         <IconSnippet cssImg="bin" />
       </div>
