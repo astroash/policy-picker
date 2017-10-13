@@ -1,7 +1,8 @@
-.CircularProgressbar .CircularProgressbar-path {
+.CircularProgressbar.incomplete .CircularProgressbar-path {
   stroke: hotpink;
   stroke-linecap: round;
   transition: stroke-dashoffset 0.5s ease 0s;
+  animation: color-change 12s infinite;
 }
 
 .CircularProgressbar .CircularProgressbar-trail {
@@ -13,4 +14,44 @@
   font-size: 1.5rem;
   dominant-baseline: middle;
   text-anchor: middle;
+}
+
+.CircularProgressbar.complete .CircularProgressbar-path {
+  stroke: hotpink;
+}
+
+@keyframes color-change {
+  0% {
+    stroke: hsla(0, 100%, 80%, 1);
+  }
+  10% {
+    stroke: hsla(36, 100%, 80%, 1);
+  }
+  20% {
+    stroke: hsla(72, 100%, 80%, 1);
+  }
+  30% {
+    stroke: hsla(108, 100%, 80%, 1);
+  }
+  40% {
+    stroke: hsla(144, 100%, 80%, 1);
+  }
+  50% {
+    stroke: hsla(180, 100%, 80%, 1);
+  }
+  60% {
+    stroke: hsla(216, 100%, 80%, 1);
+  }
+  70% {
+    stroke: hsla(250, 100%, 80%, 1);
+  }
+  80% {
+    stroke: hsla(288, 100%, 80%, 1);
+  }
+  90% {
+    stroke: hsla(324, 100%, 80%, 1);
+  }
+  100% {
+    stroke: hotpink;
+  }
 }
