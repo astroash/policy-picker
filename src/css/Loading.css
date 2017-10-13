@@ -1,0 +1,16 @@
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: hotpink;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #d6d6d6;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: hotpink;
+  font-size: 1.5rem;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}

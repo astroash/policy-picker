@@ -8,6 +8,7 @@ import NavBar from './components/NavBar';
 import Menu from './components/Menu';
 import Form from './components/Form';
 import AskAnMP from './components/AskAnMP';
+import Loading from './components/Loading';
 import Summary from './components/Summary';
 import lowerCaseNoSpace from './helpers/lowercase-no-spacing';
 
@@ -59,7 +60,8 @@ class App extends Component {
           <Menu id="menu" changeTopic={this.changeTopic} toggleMenu={this.toggleMenu} cssImg={this.state.menuDisplayed ? 'fixed' : 'dn'} />
           <main className="main">
             <Switch>
-              <Route exact path="/" render={() => <Home changeTopic={this.changeTopic} />} />
+              <Route exact path="/" render={() => <Loading {...this.props} />} />
+              <Route exact path="/home" render={() => <Home changeTopic={this.changeTopic} />} />
               <Route exact path="/ownership" render={() => (
                   <PolicyCarousel currentTopic={this.state.currentTopic} changePolicy={this.changePolicy} />)} />
               <Route exact path="/tax" render={() => (
