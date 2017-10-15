@@ -7,7 +7,7 @@ const Menu = ({ changeTopic, toggleMenu, cssImg }) => {
     <ul
       className={`menu sans-serif list w-100 bg-white tc f3 mw6 hot-pink ${cssImg}`}>
       <Link
-        to="/"
+        to="/home"
         style={{ textDecoration: 'none' }}
         onClick={() => {
           toggleMenu();
