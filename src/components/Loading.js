@@ -1,7 +1,4 @@
-  import React from 'react';
-import { Redirect } from 'react-router';
-// import router from 'react-router';
-
+import React from 'react';
 import CircularProgressbar from 'react-circular-progressbar';
 import '../css/Loading.css';
 
@@ -20,12 +17,10 @@ class ChangingProgressbar extends React.Component {
           currentPercentageIndex: (this.state.currentPercentageIndex + 1) % this.props.percentages.length
         });
       } else {
-        setTimeout ( ()=> {window.location='/home'}, 400);
+        setTimeout (()=> {window.location='/home'}, 400);
       }
     }, this.props.interval);
-
   }
-
 
   render() {
     return <CircularProgressbar {...this.props} percentage={this.props.percentages[this.state.currentPercentageIndex]}
@@ -35,7 +30,7 @@ class ChangingProgressbar extends React.Component {
 ChangingProgressbar.defaultProps = {
   interval: 92,
   strokeWidth: 4
-}
+};
 
 const Loading = () => {
   return (
